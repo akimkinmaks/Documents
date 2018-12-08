@@ -1,0 +1,424 @@
+000001ms: LOGINTERNAL: Xperia Companion version 1.9.2.0
+000002ms: LOGINTERNAL: Xperia Companion arch Win32
+000003ms: FILE: CreateFileW failed with 2 for C:\Users\user\Documents\Sony\Xperia Companion\xc-config.xml
+000003ms: FILE: CreateFileW failed with 2 for C:\Users\user\Documents\Sony\Xperia Companion\xc-pro-app-settings.xml
+000004ms: AppSettings: Loading app settings from disk
+000008ms: AppSettings: Saved app settings
+000009ms: CompanionMain::CompanionMain()
+000010ms: System: Windows 10  64 bit
+000010ms: System: Time 2018-01-27T11:29:15Z
+000010ms: AppSettings: App settings requested
+000011ms: AppSettings: Loading app settings from disk
+000026ms: AppSettings: App settings requested
+000027ms: AppSettings: Loading app settings from disk
+000029ms: getCountryCode: Found country RU
+000036ms: UIState: UI env info updated
+000162ms: Starting remote features controller session
+000162ms: UIState: UI deviceupdate updated to idle
+000162ms: UIState: UI devicerepair updated to idle
+000162ms: UIState: UI verifyprologin updated to idle
+000163ms: Starting UE session
+000163ms: UIState: UI backuprestore updated to idle
+000163ms: BRsession: BRContainer()
+000164ms: Starting BR session
+000239ms: autoupdate: Getting downloaded version
+000240ms: autoupdate: Failed to check path status, Не удается найти указанный файл
+000240ms: autoupdate: Failed to get version info path.
+000240ms: AutoUpdatesession: AutoUpdateContainer()
+000252ms: UIState: UI autoupdates updated to idle
+000253ms: Starting Auto update session
+000253ms: AutoUpdatesession: Check command received
+000253ms: UIState: UI autoupdates updated to checking
+000253ms: autoupdate: Getting manifest from server: 
+000277ms: UIState: UI mediaaccess updated to idle
+000277ms: Mediasession: MediaContainer()
+000278ms: Starting Media session
+000307ms: UIState: UI photoaccess updated to idle
+000308ms: AppSettings: App settings requested
+000309ms: AppSettings: Loading app settings from disk
+000309ms: Photosession: PhotoContainer()
+000309ms: Starting Photo session
+000310ms: UIState: UI xperiatransfer updated to idle
+000310ms: XTsession: XTContainer()
+000310ms: Starting XT session
+000310ms: UIState: UI testingtool updated to idle
+000310ms: TestingToolSession: TestingToolContainer()
+000311ms: Starting Testing Tool session
+000311ms: CompanionMain::companionMainLoop()
+000579ms: Remote features controller: Downloaded xml successfully!
+000579ms: Remote features controller: Parsing xml
+000579ms: Remote features controller: Result: OK
+000579ms: Remote features controller: Case "os" = "win"
+000580ms: getCountryCode: Found country RU
+000580ms: Remote features controller: Case "country" = "RU"
+000580ms: Remote features controller: Case "applicationBuild" = "1.9.2.0"
+000580ms: Remote features controller: Case "systemVersion" = "10.0"
+000580ms: Remote features controller: Feature "XTICloudLogin" Disable
+000580ms: UIState: UI remote features info updated
+000597ms: DeviceController: Remote device XML revision: 13
+000598ms: autoupdate: Manifest downloaded successfully.
+000786ms: autoupdate: Current version is 1.9.2.0
+000786ms: autoupdate: Newest version is 1.9.2.0
+000786ms: autoupdate: Up to date.
+000786ms: AutoUpdateaccess: handleCheckResult OK
+002199ms: getPreferredLocales: Found locale ru-RU
+002199ms: getPreferredLocales: Found locale en-US
+002199ms: getPreferredLocales: 2 locales found
+002200ms: getPreferredLocales: Found locale ru-RU
+002200ms: getPreferredLocales: Found locale en-US
+002200ms: getPreferredLocales: 2 locales found
+002328ms: PlatformWin32: Main window set
+006987ms: UICommand: getappsettings
+006987ms: AppSettings: App settings requested
+006988ms: AppSettings: Loading app settings from disk
+007072ms: UICommand: getappinfo
+007310ms: UICommand: getappinfo
+007494ms: UICommand: getappinfo
+007609ms: UICommand: getappinfo
+164644ms: UICommand: devicerepair
+164644ms: UIState: UI devicerepair updated to repairLoading
+164645ms: analytics: event = DeviceRepair / Start
+164645ms: UEsession: Starting local listener...
+164645ms: UEsession: Trying listener on port 0
+164685ms: UListener started on port : 53001
+164685ms: UEsession: Local listener started on port 53001
+164686ms: UEsession: runStartLocalListener completed successfully
+164948ms: UEsession: Starting UE...
+164949ms: PlatformWin32: RegOpenKeyExW failed with 2 requesting UE install path
+164986ms: PlatformWin32: RegOpenKeyExW failed with 2 requesting UE install path
+164986ms: UEsession: UE installation not found.. retrying from GetRemoteVersionInfo
+164986ms: UEsession: runStartUE completed successfully with no UE installed
+165238ms: UEsession: Connecting to UE version info JSON...
+165239ms: UEsession: UE version info server = , url = https://software.sonymobile.com/update-engine/update-application/windows/
+165544ms: UEsession: Saving manifest to "C:\Users\user\AppData\Local\Temp\xperiacompanion\635A.tmp"
+165550ms: UESession: 874
+165561ms: UEsession: UE information retrieved!
+165561ms: UEsession: runGetRemoteVersion completed successfully
+165561ms: UIState: UI devicerepair updated to repairLoading
+165812ms: UEsession: runCheckVersion completed with new version available
+166063ms: UEsession: Downloading UE installer...
+183848ms: UEsession: Received enough data...
+183848ms: UEsession: UE installer downloaded correctly and matching manifest, HTTP 206, 69868152 bytes
+183848ms: UEsession: Saving installer with size 69868152 to "C:\Users\user\AppData\Local\Temp\xperiacompanion\Sony_Mobile_Update_Engine_Setup-2.18.1.201801041525.exe"
+190629ms: UEsession: runDownloadInstaller completed successfully
+190629ms: UIState: UI devicerepair updated to repairLoading
+194928ms: UEsession: runCheckInstaller completed successfully
+195183ms: UEsession: Installing UE...
+195186ms: base: Sending 356 byte message: UE_INSTALL "C:/Users\user\AppData\Local\Temp\xperiacompanion\Sony_Mobile_Update_Engine_Setup-2.18.1.201801041525.exe" "C:/Users\user\AppData\Local\Temp\xperiacompanion\635A.tmp"
+195186ms: base: Message sent to server, receiving reply as follows: 
+202170ms: base: SUCCESS
+202170ms: base: Sending 30 byte message: UE_POLL_RESULT
+202170ms: base: Message sent to server, receiving reply as follows: 
+202170ms: base: FAILURE
+202184ms: PlatformWin32: Service failed to get result of Update Engine install.
+207190ms: base: Sending 30 byte message: UE_POLL_RESULT
+207190ms: base: Message sent to server, receiving reply as follows: 
+207271ms: base: FAILURE
+207272ms: PlatformWin32: Service failed to get result of Update Engine install.
+212281ms: base: Sending 30 byte message: UE_POLL_RESULT
+212281ms: base: Message sent to server, receiving reply as follows: 
+212281ms: base: FAILURE
+212281ms: PlatformWin32: Service failed to get result of Update Engine install.
+217285ms: base: Sending 30 byte message: UE_POLL_RESULT
+217285ms: base: Message sent to server, receiving reply as follows: 
+217287ms: base: FAILURE
+217287ms: PlatformWin32: Service failed to get result of Update Engine install.
+222302ms: base: Sending 30 byte message: UE_POLL_RESULT
+222302ms: base: Message sent to server, receiving reply as follows: 
+222302ms: base: FAILURE
+222302ms: PlatformWin32: Service failed to get result of Update Engine install.
+227304ms: base: Sending 30 byte message: UE_POLL_RESULT
+227305ms: base: Message sent to server, receiving reply as follows: 
+227305ms: base: FAILURE
+227305ms: PlatformWin32: Service failed to get result of Update Engine install.
+232317ms: base: Sending 30 byte message: UE_POLL_RESULT
+232317ms: base: Message sent to server, receiving reply as follows: 
+232317ms: base: FAILURE
+232317ms: PlatformWin32: Service failed to get result of Update Engine install.
+237329ms: base: Sending 30 byte message: UE_POLL_RESULT
+237329ms: base: Message sent to server, receiving reply as follows: 
+237330ms: base: FAILURE
+237331ms: PlatformWin32: Service failed to get result of Update Engine install.
+242333ms: base: Sending 30 byte message: UE_POLL_RESULT
+242333ms: base: Message sent to server, receiving reply as follows: 
+242334ms: base: FAILURE
+242334ms: PlatformWin32: Service failed to get result of Update Engine install.
+247337ms: base: Sending 30 byte message: UE_POLL_RESULT
+247337ms: base: Message sent to server, receiving reply as follows: 
+247337ms: base: FAILURE
+247338ms: PlatformWin32: Service failed to get result of Update Engine install.
+252340ms: base: Sending 30 byte message: UE_POLL_RESULT
+252340ms: base: Message sent to server, receiving reply as follows: 
+252341ms: base: FAILURE
+252341ms: PlatformWin32: Service failed to get result of Update Engine install.
+257348ms: base: Sending 30 byte message: UE_POLL_RESULT
+257348ms: base: Message sent to server, receiving reply as follows: 
+257349ms: base: FAILURE
+257349ms: PlatformWin32: Service failed to get result of Update Engine install.
+262360ms: base: Sending 30 byte message: UE_POLL_RESULT
+262360ms: base: Message sent to server, receiving reply as follows: 
+262360ms: base: FAILURE
+262360ms: PlatformWin32: Service failed to get result of Update Engine install.
+267370ms: base: Sending 30 byte message: UE_POLL_RESULT
+267370ms: base: Message sent to server, receiving reply as follows: 
+267370ms: base: FAILURE
+267370ms: PlatformWin32: Service failed to get result of Update Engine install.
+272384ms: base: Sending 30 byte message: UE_POLL_RESULT
+272385ms: base: Message sent to server, receiving reply as follows: 
+272385ms: base: FAILURE
+272386ms: PlatformWin32: Service failed to get result of Update Engine install.
+277392ms: base: Sending 30 byte message: UE_POLL_RESULT
+277392ms: base: Message sent to server, receiving reply as follows: 
+277393ms: base: FAILURE
+277393ms: PlatformWin32: Service failed to get result of Update Engine install.
+282407ms: base: Sending 30 byte message: UE_POLL_RESULT
+282407ms: base: Message sent to server, receiving reply as follows: 
+282407ms: base: FAILURE
+282407ms: PlatformWin32: Service failed to get result of Update Engine install.
+287421ms: base: Sending 30 byte message: UE_POLL_RESULT
+287421ms: base: Message sent to server, receiving reply as follows: 
+287422ms: base: FAILURE
+287422ms: PlatformWin32: Service failed to get result of Update Engine install.
+292426ms: base: Sending 30 byte message: UE_POLL_RESULT
+292426ms: base: Message sent to server, receiving reply as follows: 
+292427ms: base: SUCCESS WaitExit 0
+292428ms: analytics: event = Service / UEInstall / Success
+292428ms: UEsession: UE installed!
+292429ms: UEsession: runInstall completed successfully
+292429ms: UIState: UI devicerepair updated to repairLoading
+292680ms: UEsession: runStartLocalListener skipping, already started
+292681ms: UEsession: Local listener started on port 53001
+292681ms: UEsession: runStartLocalListener completed successfully
+292932ms: UEsession: Starting UE...
+292946ms: UEsession: Running UE from "C:\Program Files (x86)\Sony Mobile\Update Engine\Sony Mobile Update Engine.exe" on port 58088
+292946ms: UEsession: UE start without service filtering
+292946ms: UEsession: UE server = 
+292946ms: UEsession: UE customization = 
+292946ms: UEsession: Clearing UE ini
+293070ms: UEsession: UE started
+293070ms: UEsession: runStartUE completed successfully, process = f80
+293070ms: UIState: UI devicerepair updated to repairLoading
+299451ms: HttpGet: HttpSendRequestA failed with 12029
+299451ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+299451ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+299451ms: UEsession: runSendSmartPing failed to send on attempt 1, will retry
+305505ms: HttpGet: HttpSendRequestA failed with 12029
+305505ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+305505ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+305505ms: UEsession: runSendSmartPing failed to send on attempt 2, will retry
+311572ms: HttpGet: HttpSendRequestA failed with 12029
+311572ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+311572ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+311572ms: UEsession: runSendSmartPing failed to send on attempt 3, will retry
+317631ms: HttpGet: HttpSendRequestA failed with 12029
+317631ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+317632ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+318436ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+319458ms: UEsession: runSmartPingProgress timeout waiting for reply, will retry
+319792ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+320114ms: UEsession: Response to smart ping, UE at http://127.0.0.1:58088/ and local listener at http://127.0.0.1:53001/
+320114ms: UEsession: runSendLogin no active device type found, proceeding to fallback
+320115ms: UEsession: runSendLogin device is commercial
+320115ms: UEsession: runSendLogin commercial login set
+320115ms: AppSettings: App settings requested
+320115ms: AppSettings: Loading app settings from disk
+320116ms: UEsession: runSendLogin searching for system proxy settings
+320120ms: getProxySettings: WinHttpGetProxyForURL type 1, 12180
+320120ms: UEsession: runSendLogin proxy search result: .ynn.e
+320120ms: UEsession: No proxies (left), logging in to UE with no proxy
+320120ms: UEsession: runSendLogin will login anonymously
+322570ms: UEsession: runSendLogin completed successfully
+322570ms: UEsession: pingResult received in unexpected state 15
+322570ms: UEsession: pingResult received in unexpected state 15
+322570ms: UEsession: pingResult received in unexpected state 15
+332416ms: UEsession: UE responded to login
+332416ms: UEsession: Logged in to UE!
+332416ms: UIState: UI devicerepair updated to repairDeviceInstructions
+456870ms: UEsession: Device connection detected!
+456913ms: UEsession: runSendGetAllConnections completed successfully
+456934ms: UEsession: UE responded to getAllConnections
+456934ms: UEsession: Device connection detected
+456934ms: UEsession: getAllConnectionsResult returned device connection successfully!
+456946ms: UEsession: runSendGetDeviceInfo completed successfully
+458780ms: UEsession: Device info: C2305 3532 1276-3273 R3A 16.0.B.2.16
+458780ms: UEsession: getPhoneInfoResult recommended = 2
+458780ms: UEsession: oldVersion = 16.0.B.2.16
+458780ms: UEsession: getPhoneInfoResult found id EveId:126653-COMMERCIAL_SUCR
+458780ms: UEsession: Firmware EveId:126653-COMMERCIAL_SUCR with config SUCR and version 16.0.B.2.16-R3A
+458780ms: UEsession: getPhoneInfoResult found id EveId:126653-COMMERCIAL_SU
+458780ms: UEsession: Firmware EveId:126653-COMMERCIAL_SU with config SU and version 16.0.B.2.16-R3A
+458781ms: UEsession: Repair software found, version = 16.0.B.2.16-R3A, suce = , sucr = EveId:126653-COMMERCIAL_SUCR
+458791ms: UIState: UI devicerepair updated to repairFinalInstructions
+488588ms: UICommand: devicerepair
+488589ms: UEsession: runSendFinalDeviceCheck will check device connection
+488589ms: UIState: UI devicerepair updated to repairInstalling
+488878ms: UEsession: runSendGetAllConnections completed successfully
+488899ms: UEsession: UE responded to getAllConnections
+488899ms: UEsession: Device connection detected
+488899ms: UEsession: getAllConnectionsResult confirmed device connection, will start final repair phase
+488900ms: analytics: event = FeatureUse / SoftwareRepair / Commit
+488900ms: UEsession: runSendUpdate sending update for EveId:126653-COMMERCIAL_SUCR
+488900ms: UEsession: runSendUpdate refurbish = true
+488914ms: UEsession: runSendUpdate completed successfully
+490696ms: UIState: UI devicerepair updated to repairInstalling
+495755ms: UIState: UI devicerepair updated to repairInstalling
+503858ms: UIState: UI devicerepair updated to repairInstalling
+512941ms: UIState: UI devicerepair updated to repairInstalling
+521022ms: UIState: UI devicerepair updated to repairInstalling
+529130ms: UIState: UI devicerepair updated to repairInstalling
+538249ms: UIState: UI devicerepair updated to repairInstalling
+546351ms: UIState: UI devicerepair updated to repairInstalling
+555446ms: UIState: UI devicerepair updated to repairInstalling
+563545ms: UIState: UI devicerepair updated to repairInstalling
+571634ms: UIState: UI devicerepair updated to repairInstalling
+580698ms: UIState: UI devicerepair updated to repairInstalling
+591796ms: UIState: UI devicerepair updated to repairInstalling
+599874ms: UIState: UI devicerepair updated to repairInstalling
+608967ms: UIState: UI devicerepair updated to repairInstalling
+617076ms: UIState: UI devicerepair updated to repairInstalling
+626172ms: UIState: UI devicerepair updated to repairInstalling
+635257ms: UIState: UI devicerepair updated to repairInstalling
+649434ms: UIState: UI devicerepair updated to repairInstalling
+678705ms: UIState: UI devicerepair updated to repairInstalling
+723208ms: UIState: UI devicerepair updated to repairInstalling
+744993ms: UIState: UI devicerepair updated to repairInstalling
+753137ms: UIState: UI devicerepair updated to repairInstalling
+771446ms: UIState: UI devicerepair updated to repairInstalling
+785721ms: UIState: UI devicerepair updated to repairInstalling
+799974ms: UIState: UI devicerepair updated to repairInstalling
+815275ms: UIState: UI devicerepair updated to repairInstalling
+829524ms: UIState: UI devicerepair updated to repairInstalling
+844821ms: UIState: UI devicerepair updated to repairInstalling
+861075ms: UIState: UI devicerepair updated to repairInstalling
+876323ms: UIState: UI devicerepair updated to repairInstalling
+891553ms: UIState: UI devicerepair updated to repairInstalling
+906782ms: UIState: UI devicerepair updated to repairInstalling
+922043ms: UIState: UI devicerepair updated to repairInstalling
+937322ms: UIState: UI devicerepair updated to repairInstalling
+952563ms: UIState: UI devicerepair updated to repairInstalling
+968853ms: UIState: UI devicerepair updated to repairInstalling
+984096ms: UIState: UI devicerepair updated to repairInstalling
+999370ms: UIState: UI devicerepair updated to repairInstalling
+1014616ms: UIState: UI devicerepair updated to repairInstalling
+1029861ms: UIState: UI devicerepair updated to repairInstalling
+1045113ms: UIState: UI devicerepair updated to repairInstalling
+1061426ms: UIState: UI devicerepair updated to repairInstalling
+1076629ms: UIState: UI devicerepair updated to repairInstalling
+1091833ms: UIState: UI devicerepair updated to repairInstalling
+1107114ms: UIState: UI devicerepair updated to repairInstalling
+1123369ms: UIState: UI devicerepair updated to repairInstalling
+1138595ms: UIState: UI devicerepair updated to repairInstalling
+1154817ms: UIState: UI devicerepair updated to repairInstalling
+1170082ms: UIState: UI devicerepair updated to repairInstalling
+1185332ms: UIState: UI devicerepair updated to repairInstalling
+1200565ms: UIState: UI devicerepair updated to repairInstalling
+1216816ms: UIState: UI devicerepair updated to repairInstalling
+1232086ms: UIState: UI devicerepair updated to repairInstalling
+1247327ms: UIState: UI devicerepair updated to repairInstalling
+1262573ms: UIState: UI devicerepair updated to repairInstalling
+1277818ms: UIState: UI devicerepair updated to repairInstalling
+1293090ms: UIState: UI devicerepair updated to repairInstalling
+1308316ms: UIState: UI devicerepair updated to repairInstalling
+1323579ms: UIState: UI devicerepair updated to repairInstalling
+1338798ms: UIState: UI devicerepair updated to repairInstalling
+1354051ms: UIState: UI devicerepair updated to repairInstalling
+1370327ms: UIState: UI devicerepair updated to repairInstalling
+1384605ms: UIState: UI devicerepair updated to repairInstalling
+1400865ms: UIState: UI devicerepair updated to repairInstalling
+1416078ms: UIState: UI devicerepair updated to repairInstalling
+1431316ms: UIState: UI devicerepair updated to repairInstalling
+1446538ms: UIState: UI devicerepair updated to repairInstalling
+1461769ms: UIState: UI devicerepair updated to repairInstalling
+1477039ms: UIState: UI devicerepair updated to repairInstalling
+1492275ms: UIState: UI devicerepair updated to repairInstalling
+1507543ms: UIState: UI devicerepair updated to repairInstalling
+1523852ms: UIState: UI devicerepair updated to repairInstalling
+1538065ms: UIState: UI devicerepair updated to repairInstalling
+1553304ms: UIState: UI devicerepair updated to repairInstalling
+1568513ms: UIState: UI devicerepair updated to repairInstalling
+1583763ms: UIState: UI devicerepair updated to repairInstalling
+1599009ms: UIState: UI devicerepair updated to repairInstalling
+1613254ms: UIState: UI devicerepair updated to repairInstalling
+1628514ms: UIState: UI devicerepair updated to repairInstalling
+1643701ms: UIState: UI devicerepair updated to repairInstalling
+1658940ms: UIState: UI devicerepair updated to repairInstalling
+1673183ms: UIState: UI devicerepair updated to repairInstalling
+1689438ms: UIState: UI devicerepair updated to repairInstalling
+1703682ms: UIState: UI devicerepair updated to repairInstalling
+1718914ms: UIState: UI devicerepair updated to repairInstalling
+1734167ms: UIState: UI devicerepair updated to repairInstalling
+1748391ms: UIState: UI devicerepair updated to repairInstalling
+1763622ms: UIState: UI devicerepair updated to repairInstalling
+1777800ms: UIState: UI devicerepair updated to repairInstalling
+1793036ms: UIState: UI devicerepair updated to repairInstalling
+1808287ms: UIState: UI devicerepair updated to repairInstalling
+1822485ms: UIState: UI devicerepair updated to repairInstalling
+1837556ms: UIState: UI devicerepair updated to repairInstalling
+1851625ms: UIState: UI devicerepair updated to repairInstalling
+1866704ms: UIState: UI devicerepair updated to repairInstalling
+1880770ms: UIState: UI devicerepair updated to repairInstalling
+1894837ms: UIState: UI devicerepair updated to repairInstalling
+1909915ms: UIState: UI devicerepair updated to repairInstalling
+1923984ms: UIState: UI devicerepair updated to repairInstalling
+1939058ms: UIState: UI devicerepair updated to repairInstalling
+1961844ms: UIState: UI devicerepair updated to repairInstalling
+1961946ms: UEsession: Update completed!
+1961947ms: analytics: event = DeviceRepair / Completed
+1961947ms: UEsession: handleUpdateResult device reinstalled with 16.0.B.2.16-R3A
+1961947ms: UIState: UI devicerepair updated to repairComplete
+1984407ms: UICommand: devicerepair
+1984407ms: UIState: UI devicerepair updated to idle
+1984478ms: UEsession: runSendShutdown completed successfully
+1985222ms: UEsession: UE exited with 0
+1985479ms: UEsession: runTerminateUE process = f80
+1985734ms: UEsession: runCloseLocalListener
+1985734ms: UEListener: Stopping server
+1985735ms: UEListener: Waiting for connections to clear..
+1986093ms: UEListener: Pre-stop sleep
+1986448ms: UEListener: Stopping daemon
+1986450ms: UEListener: Server stopped!
+1986702ms: UEsession: runResetToIdle
+2365099ms: CompanionMain::companionClose()
+2365099ms: UEsession: Input channel disconnected, exiting
+2365099ms: StateMachine: Input channel disconnected, exiting
+2365099ms: StateMachine: Exiting...
+2365099ms: Mediasession: Input channel disconnected, exiting
+2365099ms: StateMachine: Input channel disconnected, exiting
+2365099ms: TestingToolSession: Input channel disconnected, exiting
+2365099ms: AutoUpdateaccess: runResetToIdle
+2365099ms: BRsession: Input channel disconnected, exiting
+2365099ms: Remote features controller: Input channel disconnected, exiting
+2365099ms: UEsession: Exiting...
+2365099ms: Mediasession: Exiting...
+2365099ms: XTsession: Input channel disconnected, exiting
+2365099ms: TestingToolSession: Exiting...
+2365100ms: AutoUpdateaccess: State reset to idle
+2365100ms: BRsession: Exiting...
+2365100ms: Remote features controller: Exiting...
+2365100ms: UEThreadProc: ~ exiting
+2365100ms: UIState: UI autoupdates updated to idle
+2365100ms: BRThreadProc: ~ exiting
+2365100ms: FeatureControllerThreadProc: ~ exiting
+2365100ms: StateMachine: Exiting...
+2365111ms: XTsession: Exiting...
+2365111ms: XTThreadProc: ~ exiting
+2365503ms: AnalyticsRunner: waitExit done!
+2365503ms: FeatureControllerRunner: waitExit done!
+2365504ms: UERunner: waitExit done!
+2365504ms: BRRunner: waitExit done!
+2365505ms: StateMachine: waitExit done!
+2365505ms: MediaRunner: waitExit done!
+2365506ms: StateMachine: waitExit done!
+2365506ms: XTRunner: waitExit done!
+2365506ms: TestingToolRunner: waitExit done!
+2368413ms: AnalyticsRunner: waitExit done!
+2368413ms: FeatureControllerRunner: waitExit done!
+2368413ms: UERunner: waitExit done!
+2368413ms: BRRunner: waitExit done!
+2368413ms: StateMachine: waitExit done!
+2368413ms: MediaRunner: waitExit done!
+2368413ms: StateMachine: waitExit done!
+2368414ms: XTRunner: waitExit done!
+2368414ms: TestingToolRunner: waitExit done!
+2368414ms: WARNING services still running...
+2368414ms: companionClose exiting (hopefully near the end of the log)

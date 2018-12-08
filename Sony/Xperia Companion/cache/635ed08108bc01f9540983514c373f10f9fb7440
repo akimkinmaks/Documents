@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root revision="8">
+  <info>
+    <!-- Reserved for future use -->
+  </info>
+  <features>
+	<feature name="XTICloudLogin">
+      <case applicationBuild="1.0.0...2.2.5">
+        <action>disable</action>
+      </case>
+	</feature>
+	<feature name="AutoUpdate">
+      <case os="osx" systemVersion="0.8.0...0.8.99">
+        <action>disable</action>
+      </case>
+	</feature>
+    <feature name="Backup">
+	    <!-- Versions prior to 2.3 do not work with dontSupport --> 
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1180-BV">
+	        <action>disable</action>
+		</case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1181-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1183-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1184-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1190-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1191-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1192-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1193-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1200-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1201-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1202-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1203-BV">
+	        <action>disable</action>
+        </case>
+
+	    <!-- For 2.3 and up, prefer dontSupport --> 
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1180-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1181-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1183-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1184-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1190-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1191-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1192-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1193-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1200-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1201-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1202-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1203-BV">
+          <action>dontSupport</action>
+        </case>
+    </feature>
+    
+    <feature name="Restore">
+	    <!-- Versions prior to 2.3 do not work with dontSupport --> 
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1180-BV">
+	        <action>disable</action>
+		</case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1181-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1183-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1184-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1190-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1191-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1192-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1193-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1200-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1201-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1202-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1203-BV">
+	        <action>disable</action>
+        </case>
+
+	    <!-- For 2.3 and up, prefer dontSupport --> 
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1180-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1181-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1183-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1184-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1190-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1191-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1192-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1193-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1200-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1201-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1202-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1203-BV">
+          <action>dontSupport</action>
+        </case>
+	</feature>
+    <feature name="XperiaTransfer">
+	    <!-- Versions prior to 2.3 do not work with dontSupport --> 
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1180-BV">
+	        <action>disable</action>
+		</case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1181-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1183-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1184-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1190-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1191-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1192-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1193-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1200-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1201-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1202-BV">
+	        <action>disable</action>
+        </case>
+		<case applicationBuild="1.0.0...2.2.5" typeID="PM-1203-BV">
+	        <action>disable</action>
+        </case>
+
+	    <!-- For 2.3 and up, prefer dontSupport --> 
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1180-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1181-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1183-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1184-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1190-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1191-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1192-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1193-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1200-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1201-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1202-BV">
+          <action>dontSupport</action>
+        </case>
+		<case applicationBuild="2.3.0...99.0.0" typeID="PM-1203-BV">
+          <action>dontSupport</action>
+        </case>
+    </feature>
+  </features>
+</root>

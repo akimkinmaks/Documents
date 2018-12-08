@@ -1,0 +1,121 @@
+000074ms: LOGINTERNAL: Xperia Companion version 1.9.2.0
+000075ms: LOGINTERNAL: Xperia Companion arch Win32
+000118ms: FILE: CreateFileW failed with 2 for C:\Users\user\Documents\Sony\Xperia Companion\xc-config.xml
+000119ms: FILE: CreateFileW failed with 2 for C:\Users\user\Documents\Sony\Xperia Companion\xc-pro-app-settings.xml
+000122ms: AppSettings: Loading app settings from disk
+000129ms: AppSettings: Saved app settings
+000129ms: CompanionMain::CompanionMain()
+000203ms: System: Windows 10  64 bit
+000204ms: System: Time 2018-01-27T14:42:25Z
+000222ms: AppSettings: App settings requested
+000224ms: AppSettings: Loading app settings from disk
+000256ms: AppSettings: App settings requested
+000256ms: AppSettings: Loading app settings from disk
+000269ms: getCountryCode: Found country RU
+000269ms: UIState: UI env info updated
+000375ms: Starting remote features controller session
+000467ms: UIState: UI deviceupdate updated to idle
+000468ms: UIState: UI devicerepair updated to idle
+000468ms: UIState: UI verifyprologin updated to idle
+000469ms: Starting UE session
+000470ms: UIState: UI backuprestore updated to idle
+000470ms: BRsession: BRContainer()
+000471ms: Starting BR session
+000511ms: autoupdate: Getting downloaded version
+000513ms: autoupdate: Failed to check path status, Не удается найти указанный файл
+000513ms: autoupdate: Failed to get version info path.
+000514ms: AutoUpdatesession: AutoUpdateContainer()
+000514ms: UIState: UI autoupdates updated to idle
+000515ms: Starting Auto update session
+000516ms: AutoUpdatesession: Check command received
+000517ms: UIState: UI autoupdates updated to checking
+000517ms: autoupdate: Getting manifest from server: 
+000519ms: UIState: UI mediaaccess updated to idle
+000519ms: Mediasession: MediaContainer()
+000520ms: Starting Media session
+000521ms: UIState: UI photoaccess updated to idle
+000523ms: AppSettings: App settings requested
+000524ms: AppSettings: Loading app settings from disk
+000525ms: Photosession: PhotoContainer()
+000526ms: Starting Photo session
+000527ms: UIState: UI xperiatransfer updated to idle
+000527ms: XTsession: XTContainer()
+000529ms: Starting XT session
+000529ms: UIState: UI testingtool updated to idle
+000529ms: TestingToolSession: TestingToolContainer()
+000530ms: Starting Testing Tool session
+000532ms: CompanionMain::companionMainLoop()
+000813ms: autoupdate: Manifest downloaded successfully.
+000861ms: Remote features controller: Downloaded xml successfully!
+000861ms: Remote features controller: Parsing xml
+000861ms: Remote features controller: Result: OK
+000862ms: Remote features controller: Case "os" = "win"
+000863ms: getCountryCode: Found country RU
+000863ms: Remote features controller: Case "country" = "RU"
+000863ms: Remote features controller: Case "applicationBuild" = "1.9.2.0"
+000863ms: Remote features controller: Case "systemVersion" = "10.0"
+000863ms: Remote features controller: Feature "XTICloudLogin" Disable
+000864ms: UIState: UI remote features info updated
+000899ms: autoupdate: Current version is 1.9.2.0
+000899ms: autoupdate: Newest version is 1.9.2.0
+000899ms: autoupdate: Up to date.
+000935ms: AutoUpdateaccess: handleCheckResult OK
+001020ms: DeviceController: Remote device XML revision: 13
+007281ms: getPreferredLocales: Found locale ru-RU
+007282ms: getPreferredLocales: Found locale en-US
+007282ms: getPreferredLocales: 2 locales found
+007302ms: getPreferredLocales: Found locale ru-RU
+007302ms: getPreferredLocales: Found locale en-US
+007302ms: getPreferredLocales: 2 locales found
+009666ms: PlatformWin32: Main window set
+024340ms: UICommand: getappinfo
+024529ms: UICommand: getappsettings
+024529ms: AppSettings: App settings requested
+024530ms: AppSettings: Loading app settings from disk
+024781ms: UICommand: getappinfo
+024956ms: UICommand: getappinfo
+025003ms: UICommand: getappinfo
+027675ms: CompanionMain::companionClose()
+027675ms: Mediasession: Input channel disconnected, exiting
+027675ms: StateMachine: Input channel disconnected, exiting
+027675ms: BRsession: Input channel disconnected, exiting
+027675ms: StateMachine: Input channel disconnected, exiting
+027675ms: XTsession: Input channel disconnected, exiting
+027675ms: Mediasession: Exiting...
+027675ms: TestingToolSession: Input channel disconnected, exiting
+027675ms: Remote features controller: Input channel disconnected, exiting
+027675ms: UEsession: Input channel disconnected, exiting
+027675ms: AutoUpdateaccess: runResetToIdle
+027676ms: BRsession: Exiting...
+027676ms: StateMachine: Exiting...
+027676ms: TestingToolSession: Exiting...
+027676ms: Remote features controller: Exiting...
+027676ms: UEsession: Exiting...
+027676ms: AutoUpdateaccess: State reset to idle
+027676ms: BRThreadProc: ~ exiting
+027676ms: FeatureControllerThreadProc: ~ exiting
+027676ms: UEThreadProc: ~ exiting
+027676ms: UIState: UI autoupdates updated to idle
+027677ms: StateMachine: Exiting...
+027689ms: XTsession: Exiting...
+027689ms: XTThreadProc: ~ exiting
+028089ms: AnalyticsRunner: waitExit done!
+028089ms: FeatureControllerRunner: waitExit done!
+028090ms: UERunner: waitExit done!
+028090ms: BRRunner: waitExit done!
+028091ms: StateMachine: waitExit done!
+028091ms: MediaRunner: waitExit done!
+028091ms: StateMachine: waitExit done!
+028092ms: XTRunner: waitExit done!
+028092ms: TestingToolRunner: waitExit done!
+031002ms: AnalyticsRunner: waitExit done!
+031002ms: FeatureControllerRunner: waitExit done!
+031003ms: UERunner: waitExit done!
+031003ms: BRRunner: waitExit done!
+031003ms: StateMachine: waitExit done!
+031003ms: MediaRunner: waitExit done!
+031004ms: StateMachine: waitExit done!
+031004ms: XTRunner: waitExit done!
+031004ms: TestingToolRunner: waitExit done!
+031005ms: WARNING services still running...
+031005ms: companionClose exiting (hopefully near the end of the log)

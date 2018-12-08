@@ -1,0 +1,14 @@
+{
+ "companion_photo_custom_destination": "",
+ "instance_uuid": "5c85936d-c88d-46c6-b61b-e259f2b2f84c",
+ "proxy": {
+  "address": "",
+  "exception": "<local>",
+  "port": 0,
+  "scripturl": ""
+ },
+ "proxy_setting": "auto",
+ "send_usage_data": true,
+ "start_agent_on_system_start": true,
+ "start_xc_on_device_connection": true
+}

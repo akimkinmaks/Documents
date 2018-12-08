@@ -1,0 +1,14 @@
+70ms Loading images
+82ms Creating controls
+83ms Loading messages
+121ms getting messages from agent-ru.xml
+3030ms AppSettings Loading app settings from disk
+3034ms AppSettings Saved app settings
+3036ms Started listening for devices
+5256ms Certificate Validating (w/ platformInfo): https://dl-desktop-xcapps.sonymobile.com/production/xc/data/xc-supported-devices.xml
+5629ms Certificate Validated OK: https://dl-desktop-xcapps.sonymobile.com/production/xc/data/xc-supported-devices.xml
+53503ms base Could not open pipe, 2
+53504ms Failed to send piped message, QUIT
+53504ms joining scanner thread
+55135ms flagging deviceFilterUpdateThread for exit
+55135ms deviceFilterUpdateThread joining scanner thread

@@ -1,0 +1,1861 @@
+000053ms: LOGINTERNAL: Xperia Companion version 2.2.5.0
+000054ms: LOGINTERNAL: Xperia Companion arch Win32
+000146ms: AppSettings: Loading app settings from disk
+000171ms: AppSettings: Saved app settings
+000172ms: CompanionMain::CompanionMain()
+000173ms: System: Windows 10  64 bit
+000173ms: System: Time 2018-11-13T16:51:38Z
+000173ms: AppSettings: App settings requested
+000174ms: AppSettings: Loading app settings from disk
+000175ms: AppSettings: App settings requested
+000176ms: AppSettings: Loading app settings from disk
+000200ms: getCountryCode: Found country RU
+000232ms: UIState: UI env info updated
+000416ms: autoupdate: Getting downloaded version
+000418ms: autoupdate: Failed to check path status, �� ������� ����� ��������� ����
+000418ms: autoupdate: Failed to get version info path.
+000437ms: AutoUpdatesession: AutoUpdateContainer()
+000455ms: UIState: UI autoupdates updated to idle
+000456ms: Starting Auto update session
+000457ms: Starting remote features controller session
+000457ms: UIState: UI deviceupdate updated to idle
+000457ms: UIState: UI devicerepair updated to idle
+000457ms: UIState: UI verifyprologin updated to idle
+000459ms: Starting UE session
+000513ms: UIState: UI backuprestore updated to idle
+000514ms: BRsession: BRContainer()
+000524ms: Starting BR session
+000535ms: CertificateAlt: Validating Alt: https://dl-desktop-xcapps.sonymobile.com/production/xc/data/xc-analytics.xml
+000547ms: UIState: UI mediaaccess updated to idle
+000547ms: Mediasession: MediaContainer()
+000548ms: Starting Media session
+000580ms: UIState: UI photoaccess updated to idle
+000706ms: AppSettings: App settings requested
+000707ms: AppSettings: Loading app settings from disk
+000707ms: Photosession: PhotoContainer()
+000708ms: Starting Photo session
+000708ms: UIState: UI xperiatransfer updated to idle
+000708ms: XTsession: XTContainer()
+000748ms: Starting XT session
+000749ms: CertificateAlt: Validating Alt: https://dl-desktop-xcapps.sonymobile.com/production/xc/data/xc-feature-control.xml
+000761ms: UIState: UI testingtool updated to idle
+000761ms: TestingToolSession: TestingToolContainer()
+000761ms: Starting Testing Tool session
+000762ms: CompanionMain::companionMainLoop()
+000951ms: CertificateAlt: Validating Alt: https://dl-desktop-xcapps.sonymobile.com/production/xc/data/xc-supported-devices.xml
+001180ms: Remote features controller: Downloaded xml successfully!
+001180ms: Remote features controller: Parsing xml
+001184ms: AutoUpdatesession: Check command received
+001184ms: Remote features controller: Result: OK
+001184ms: Remote features controller: Case "os" = "win"
+001185ms: getCountryCode: Found country RU
+001185ms: Remote features controller: Case "country" = "RU"
+001185ms: Remote features controller: Case "applicationBuild" = "2.2.5.0"
+001185ms: Remote features controller: Case "systemVersion" = "10.0"
+001186ms: Remote features controller: Feature "XTICloudLogin" Disable
+001186ms: UIState: UI remote features info updated
+001186ms: UIState: UI autoupdates updated to checking
+001219ms: autoupdate: Getting manifest from server: 
+001277ms: Certificate: Validating (w/ platformInfo): https://dl-desktop-xcapps.sonymobile.com/production/xc/data/xc-manifest.xml
+001278ms: Certificate: Validated OK: https://dl-desktop-xcapps.sonymobile.com/production/xc/data/xc-manifest.xml
+001279ms: autoupdate: Manifest downloaded successfully.
+001382ms: DeviceController: Remote device XML revision: 18
+001413ms: CertificateAlt: Validating Alt: https://dl-desktop-xcapps.sonymobile.com/production/xc/data/xc-unsupported-devices.xml
+001507ms: DeviceController: Remote unsupported devices XML revision: 2
+001563ms: autoupdate: Current version is 2.2.5.0
+001563ms: autoupdate: Newest version is 2.2.5.0
+001563ms: autoupdate: Up to date.
+001564ms: AutoUpdateaccess: handleCheckResult OK
+001580ms: CertificateAlt: Validating Alt: https://dl-desktop-xcapps.sonymobile.com/production/xc/data/xc-cloud-capability.xml
+004767ms: getPreferredLocales: Found locale ru-RU
+004767ms: getPreferredLocales: Found locale en-US
+004767ms: getPreferredLocales: 2 locales found
+004767ms: getPreferredLocales: Found locale ru-RU
+004768ms: getPreferredLocales: Found locale en-US
+004768ms: getPreferredLocales: 2 locales found
+005541ms: PlatformWin32: Main window set
+016024ms: UICommand: getappsettings
+016024ms: AppSettings: App settings requested
+016025ms: AppSettings: Loading app settings from disk
+016183ms: UICommand: getappinfo
+016696ms: UICommand: getappinfo
+016985ms: UICommand: getappinfo
+017049ms: UICommand: getappinfo
+108279ms: UICommand: devicerepair
+108280ms: UEsession: STATE changed to WaitForRepairAcceptBattery by commandHandler
+153239ms: Device will change.
+153240ms: UIState: UI device updated
+153241ms: mtp: startDevice
+153241ms: DEVDETAIL: vid/pid = 0x0fce 0x1a3
+153323ms: mtp: startDevice device info: C2305, Sony, 43 supported ops
+153323ms: DEVDETAIL: StandardVersion = 100
+153323ms: DEVDETAIL: VendorExtID = 6
+153323ms: DEVDETAIL: MTP version = 100
+153323ms: DEVDETAIL: MTP extensions = "microsoft.com: 1.0; android.com: 1.0; microsoft.com/WPDNA: 1.0;sonyericsson.com/SE: 1.0; sony.net/MRLN: 1.0;"
+153323ms: DEVDETAIL: Functional mode = 0
+153323ms: DEVDETAIL: 43 supported operations
+153324ms: DEVDETAIL: GetDeviceInfo, OpenSession, CloseSession, GetStorageIDs, GetStorageInfo, GetNumObjects, GetObjectHandles, GetObjectInfo, GetObject, GetThumb, DeleteObject, SendObjectInfo, SendObject, GetDevicePropDesc, GetDevicePropValue, SetDevicePropValue, ResetDevicePropValue, GetPartialObject, GetObjectPropsSupported, GetObjectPropDesc, GetObjectPropValue, SetObjectPropValue, GetObjectPropList, GetObjectReferences, SetObjectReferences, MTP_OPERATION_0x95c1, MTP_OPERATION_0x95c2, MTP_OPERATION_0x95c3, MTP_OPERATION_0x95c4, MTP_OPERATION_0x95c5, SetPhoneMode, GetExtDevicePropValue, GetBackupInfo, SetPacketName, BackupFiles, BackupFinish, RestoreFiles, CancelBackupRestore, MTP_OPERATION_0x940c, MTP_OPERATION_0x940d, MTP_OPERATION_0x9407, MTP_OPERATION_0x9408, MTP_OPERATION_0x9409
+153324ms: DEVDETAIL: 8 supported events
+153324ms: DEVDETAIL: ObjectAdded, ObjectRemoved, StoreAdded, StoreRemoved, ObjectInfoChanged, StorageInfoChanged, MTP_EVENT_0xc350, BackupRestoreResult
+153324ms: DEVDETAIL: 6 supported device properties
+153324ms: DEVDETAIL: MTP_DEV_PROP_0xd401, DeviceFriendlyName, MTP_DEV_PROP_0xd405, MTP_DEV_PROP_0x5003, MTP_DEV_PROP_0xd120, BatteryLevel
+153324ms: DEVDETAIL: Manufacturer = Sony
+153324ms: DEVDETAIL: Model = C2305
+153325ms: DEVDETAIL: Device version = 1.0
+153325ms: DEVDETAIL: Serial number = QO4729C39006
+153327ms: mtp: OpenSession
+153328ms: mtp: OpenSession done
+153480ms: DEVDETAIL: Extension applications = "com.sonyericsson.mtp.extension.backuprestore: 1.1; com.sonyericsson.mtp.extension.marlin: 1.0; com.sonyericsson.mtp.extension.update: 1.0; com.sonyericsson.mtp: 1.0"
+153510ms: DEVDETAIL: TypeID = PM-0570-BV
+153542ms: DEVDETAIL: Modelname = C2305
+153629ms: DEVDETAIL: IMEI length = 15
+153656ms: DEVDETAIL: Displayname = Xperia C
+153679ms: DEVDETAIL: App product number = 1275-5177
+153704ms: DEVDETAIL: App production revision = 16.0.B.2.16
+153725ms: DEVDETAIL: CDF product number = 1276-3273
+153749ms: DEVDETAIL: CDF product revision = R3A
+153785ms: DEVDETAIL: FS product number = WORLD-i
+154154ms: DEVDETAIL: FS product revision = 16.0.B.2.16
+154292ms: DEVDETAIL: Android version = 
+154327ms: DEVDETAIL: CustomerID = 
+154380ms: DEVDETAIL: EncryptionState = 0
+154568ms: xc: Received piped message, SHOW_WINDOW
+154608ms: DEVDETAIL: AdminState = 0
+154619ms: mtp: startDevice - begin updateLockState
+154620ms: mtp: updateLockState - begin getStorageIDs
+154662ms: mtp: startDevice successful
+154662ms: Remote features controller: Case "typeID" = "PM-0570-BV"
+154663ms: Device did start: C2305
+154663ms: UIState: UI device updated
+154664ms: mtp: EnumerateDevice: C2305
+154669ms: UIState: UI devicerepair updated to welcome
+154811ms: Remote features controller: Case "customerID" = "439"
+154812ms: Device did enumerate: C2305
+154813ms: UIState: UI device updated
+154814ms: DeviceActionsMTP: Device enumeration completed in 0.13s
+154814ms: mtp: EnumerateDevice done: C2305
+171010ms: UICommand: devicerepair
+171010ms: UEsession: STATE changed to Idle by commandHandler
+191844ms: UICommand: devicerepair
+191844ms: UIState: UI devicerepair updated to preloadRepair
+191844ms: analytics: event = DeviceRepair / Start / preload
+191845ms: UEsession: Loading repair for developer preview
+191845ms: UEsession: STATE changed to PreparePreloadRepairDevice by commandHandler
+191845ms: UEsession: runCheckForUpdates silent check
+191845ms: UIState: UI deviceupdate updated to checking
+191846ms: UEsession: Checking for updates...
+191849ms: getLocale: Found locale ru-RU
+191849ms: UEsession: DU UEP = 0
+191849ms: UEsession: DU FUAS = 0
+191849ms: UEsession: DU AppCert = 0
+191849ms: UEsession: DU BuildVariant = 0
+191850ms: UEsession: DU locale = ru-RU
+191850ms: delta: getUpdates
+191852ms: delta: updateDirectory: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates
+192337ms: delta: Init ok.
+192337ms: delta: Successfully loaded library, deviceupdate_cwrapper.dll
+192337ms: delta: DUCreateSession
+192338ms: delta: CreateHTTP
+192338ms: delta: CreateMTP
+192338ms: libdu: Running Device update version: 1.2.2
+192338ms: libdu: Constructor session
+192341ms: libdu: Loading delta file cache from file at location: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates/deltafiles.cache
+192342ms: libdu: Did not find any delta file cache.
+192342ms: libdu: Constructor HTTP service
+192342ms: libdu: Destructor HTTP service
+192343ms: libdu: Loading update session id cache from file at location: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates/updatesessionids.cache
+192343ms: libdu: Did not find any update session id cache.
+192343ms: libdu: Constructor tracking service
+192344ms: libdu: Sending of tracking data is: enabled
+192345ms: libdu: Destructor tracking service
+192345ms: libdu: Constructor MTP service
+192346ms: libdu: Destructor MTP service
+192346ms: libdu: Constructor UEP service
+192347ms: libdu: Destructor UEP service
+192349ms: libdu: Destructor FUAS service
+192350ms: libdu: Loading identifier cache from file at location: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates/identifiers.cache
+192351ms: libdu: Did not find any device identifier cache.
+192351ms: libdu: Destructor identifier cache
+192351ms: libdu: Identifier cache not changed, skipping writing to file
+192351ms: delta: setupUpdates success.
+192351ms: delta: DUIdentifyDevice
+192352ms: delta: MTPExecute
+192352ms: delta: MTPExecute->Command:37255, p1 : 53315
+192425ms: libdu: Mtp command successfully executed
+192425ms: libdu: Successfully retrieved identifier: User type: admin
+192425ms: delta: MTPExecute
+192425ms: delta: MTPExecute->Command:37255, p1 : 53319
+192461ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+192461ms: libdu: Mtp command successfully executed
+192461ms: libdu: Parameter not supported: Android revision
+192461ms: libdu: Could not get identifier: Android revision
+192461ms: delta: MTPExecute
+192461ms: delta: MTPExecute->Command:37255, p1 : 53323
+192491ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+192492ms: libdu: Mtp command successfully executed
+192492ms: libdu: Parameter not supported: MTP application certificate id
+192492ms: libdu: Could not get identifier: MTP application certificate id
+192492ms: delta: MTPExecute
+192492ms: delta: MTPExecute->Command:37255, p1 : 53304
+192525ms: libdu: Mtp command successfully executed
+192526ms: libdu: Successfully retrieved identifier: AppSw id: 1275-5177
+192526ms: delta: MTPExecute
+192526ms: delta: MTPExecute->Command:37255, p1 : 53305
+192558ms: libdu: Mtp command successfully executed
+192558ms: libdu: Successfully retrieved identifier: AppSw version: 16.0.B.2.16
+192558ms: delta: MTPExecute
+192558ms: delta: MTPExecute->Command:37255, p1 : 53310
+192590ms: libdu: Mtp command successfully executed
+192591ms: libdu: Successfully retrieved identifier: Boot loader product number: 1274-4304,
+192591ms: delta: MTPExecute
+192591ms: delta: MTPExecute->Command:37255, p1 : 53311
+192621ms: libdu: Mtp command successfully executed
+192621ms: libdu: Successfully retrieved identifier: Boot loader revision: 2.14.J.2.6
+192621ms: delta: MTPExecute
+192621ms: delta: MTPExecute->Command:37255, p1 : 53322
+192647ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+192647ms: libdu: Mtp command successfully executed
+192647ms: libdu: Parameter not supported: Build variant
+192647ms: libdu: Could not get identifier: Build variant
+192647ms: delta: MTPExecute
+192647ms: delta: MTPExecute->Command:37255, p1 : 53308
+192676ms: libdu: Mtp command successfully executed
+192676ms: libdu: Successfully retrieved identifier: CDF id: 1276-3273
+192676ms: delta: MTPExecute
+192677ms: delta: MTPExecute->Command:37255, p1 : 53309
+192705ms: libdu: Mtp command successfully executed
+192706ms: libdu: Successfully retrieved identifier: CDF version: R3A
+192706ms: delta: MTPExecute
+192706ms: delta: MTPExecute->Command:37255, p1 : 53302
+192736ms: libdu: Mtp command successfully executed
+192737ms: libdu: Successfully retrieved identifier: Display name: Xperia C
+192737ms: delta: MTPExecute
+192737ms: delta: MTPExecute->Command:37255, p1 : 53317
+192761ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+192762ms: libdu: Mtp command successfully executed
+192762ms: libdu: Parameter not supported: HW config revision
+192762ms: libdu: Could not get identifier: HW config revision
+192762ms: delta: MTPExecute
+192762ms: delta: MTPExecute->Command:37255, p1 : 53303
+192790ms: libdu: Mtp command successfully executed
+192790ms: libdu: Successfully retrieved identifier: Unencrypted imei: 353267066584887
+192791ms: delta: MTPExecute
+192791ms: delta: MTPExecute->Command:37255, p1 : 53316
+192816ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+192816ms: libdu: Mtp command successfully executed
+192816ms: libdu: Parameter not supported: Encrypted imei
+192816ms: libdu: Could not get identifier: Encrypted imei
+192816ms: delta: MTPExecute
+192816ms: delta: MTPExecute->Command:37255, p1 : 53301
+192843ms: libdu: Mtp command successfully executed
+192844ms: libdu: Successfully retrieved identifier: Model: C2305
+192844ms: delta: MTPExecute
+192844ms: delta: MTPExecute->Command:37255, p1 : 53300
+192870ms: libdu: Mtp command successfully executed
+192871ms: libdu: Successfully retrieved identifier: HW type: PM-0570-BV
+192871ms: libdu: Identifier value is empty: HW config revision
+192871ms: libdu: Identifier value is empty: Encrypted imei
+192871ms: delta: MTPExecute
+192871ms: delta: MTPExecute->Command:4097, p1 : 0
+192877ms: libdu: Mtp command successfully executed
+192877ms: libdu: Device does not support GOTA A/B updates over cable (lacking necessary op codes).
+192877ms: libdu: Device does not support FOTA updates over cable (lacking necessary op codes).
+192877ms: libdu: Device does not support delta updates over cable.
+192877ms: delta: DUGetUpdates
+192877ms: libdu: Getting collection from id: f7e4fa53-bda8-4367-a880-efd1ad8656e9
+192884ms: libdu: Successfully retrieved IMEI: 353267066584887
+192885ms: libdu: HTTP GET on: https://fuas.sonymobile.com/fuas/services/updates?cdfId=1276-3273&cdfVer=R3A&channel=cable&clientName=Xperia%20Companion%20Win&clientVersion=2.2.5.0&devId=353267066584887&lang=ru-RU&model=C2305&swId=1275-5177&swVer=16.0.B.2.16&tac_mc=35326706&updateFormat=image
+192885ms: delta: HTTPGet
+192885ms: delta: HTTPExecute
+192885ms: delta: DUHTTPRequestGetURL
+192885ms: delta: Http request url: https://fuas.sonymobile.com/fuas/services/updates?cdfId=1276-3273&cdfVer=R3A&channel=cable&clientName=Xperia%20Companion%20Win&clientVersion=2.2.5.0&devId=353267066584887&lang=ru-RU&model=C2305&swId=1275-5177&swVer=16.0.B.2.16&tac_mc=35326706&updateFormat=image
+192885ms: delta: DUHTTPRequestGetHeaderCount
+192885ms: delta: DUHTTPRequestGetHeader
+192886ms: delta: DUHTTPRequestGetCertificateCount
+192886ms: delta: certificate count: 2
+192886ms: delta: DUHTTPRequestGetPublicKey
+192886ms: delta: DUHTTPRequestGetPublicKey
+193582ms: delta: Found matching certificate
+193583ms: delta: Response code 200
+193583ms: delta: DUHTTPResponseSetHTTPResult
+193583ms: delta: Header HTTP/1.1 200 OK: HTTP/1.1 200 OK
+193583ms: delta: DUHTTPResponseSetHeader
+193583ms: delta: Header Accept-Ranges: bytes
+193583ms: delta: DUHTTPResponseSetHeader
+193583ms: delta: Header Cache-Control: max-age=7200
+193583ms: delta: DUHTTPResponseSetHeader
+193584ms: delta: Header cdn_server: fcn/418C
+193584ms: delta: DUHTTPResponseSetHeader
+193584ms: delta: Header Content-Type: application/xml;charset=utf-8
+193584ms: delta: DUHTTPResponseSetHeader
+193584ms: delta: Header Date: Tue, 13 Nov 2018 16:54:50 GMT
+193584ms: delta: DUHTTPResponseSetHeader
+193584ms: delta: Header Etag: W/"1415706428"
+193584ms: delta: DUHTTPResponseSetHeader
+193584ms: delta: Header Expires: Tue, 13 Nov 2018 18:54:50 GMT
+193584ms: delta: DUHTTPResponseSetHeader
+193584ms: delta: Header Last-Modified: Thu, 04 Oct 2018 15:51:58 GMT
+193585ms: delta: DUHTTPResponseSetHeader
+193585ms: delta: Header Server: Sony Server
+193585ms: delta: DUHTTPResponseSetHeader
+193585ms: delta: Header X-Cache: HIT
+193585ms: delta: DUHTTPResponseSetHeader
+193585ms: delta: Header Content-Length: 227
+193585ms: delta: DUHTTPResponseSetHeader
+193585ms: libdu: Http command successfully executed
+193585ms: delta: HTTPReadData
+193586ms: libdu: Http command successfully executed
+193586ms: libdu: FUAS XML response [ <?xml version="1.0"?>
+<updateAvailableResponse xmlns="http://uas.sonyericsson.com/UpdateAvailableResponse">
+    <releaseList />
+    <ceParam>RXSt+u+qDMT7eLh+TD2BGG8igkE=</ceParam>
+</updateAvailableResponse>
+] parsed successfully
+193586ms: libdu: Image update is lacking security state type, let's generate one...
+193587ms: libdu: Checking if device is rooted
+193587ms: delta: MTPExecute
+193587ms: delta: MTPExecute->Command:37255, p1 : 53324
+193630ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+193630ms: libdu: Mtp command successfully executed
+193630ms: libdu: Parameter not supported: Rooting status
+193631ms: libdu: Could not get identifier: Rooting status
+193631ms: delta: Updates available : 1
+193631ms: delta:  Version: 
+ Mem req: 0 MB
+193631ms: delta:  ID: FUAS:0
+193631ms: delta:  Name: 
+193631ms: UEsession: Update check done...
+193631ms: UEsession: Updates found: 1
+193631ms: UEsession: securitystate = COMMERCIAL
+193632ms: UEsession: No acceptable updates found
+193632ms: delta: cancel on session: 0408F588
+193632ms: delta: DUCancel
+193632ms: libdu: No ongoing session function call to cancel
+193632ms: libdu: No ongoing MTP function call to cancel.
+193632ms: libdu: No ongoing HTTP function call to cancel.
+193632ms: delta: DUDestroySession
+193632ms: libdu: End session
+193632ms: libdu: Destructor delta file cache
+193632ms: libdu: Delta file cache not changed, skipping writing to file
+193633ms: libdu: Destructor identifier cache
+193633ms: libdu: Saving identifier cache to file: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates/identifiers.cache
+193651ms: libdu: Destructor MTP service
+193651ms: libdu: Destructor UEP service
+193651ms: libdu: Destructor FUAS service
+193652ms: libdu: Destructor tracking service
+193652ms: libdu: Destructor update session id cache
+193652ms: libdu: Update session ID cache not changed, skipping writing to file
+193652ms: libdu: Destructor HTTP service
+193652ms: delta: DestroyMTP
+193652ms: delta: DestroyHTTP
+193706ms: libdu: Destructor delta file
+193707ms: libdu: Closing delta file
+193707ms: libdu: Destructor session
+193707ms: UEsession: STATE changed to StartLocalListener by stateHandler
+193958ms: UEsession: Starting local listener...
+193959ms: UEsession: Trying listener on port 0, 127.0.0.1
+194151ms: UListener started on port : 49328
+194151ms: UEsession: Local listener started on port 49328
+194151ms: UEsession: runStartLocalListener completed successfully
+194151ms: UEsession: STATE changed to StartUE by stateHandler
+194403ms: UEsession: Starting UE...
+194403ms: PlatformWin32: RegOpenKeyExW failed with 2 requesting UE install path from HKCU, will retry in HKLM
+194404ms: PlatformWin32: RegOpenKeyExW failed with 2 requesting UE install path
+194423ms: PlatformWin32: RegOpenKeyExW failed with 2 requesting UE install path from HKCU, will retry in HKLM
+194423ms: PlatformWin32: RegOpenKeyExW failed with 2 requesting UE install path
+194423ms: UEsession: UE installation not found.. retrying from GetRemoteVersionInfo
+194423ms: UEsession: runStartUE completed successfully with no UE installed
+194423ms: UEsession: STATE changed to GetRemoteVersionInfo by stateHandler
+194674ms: UEsession: Connecting to UE version info JSON...
+194674ms: UEsession: UE version info server = , url = https://software.sonymobile.com/update-engine/update-application/windows/
+195139ms: CertificateAlt: Validating Alt: https://software.sonymobile.com/update-engine/update-application/windows/manifest.json
+195247ms: UEsession: Saving manifest to "C:\Users\user\AppData\Local\Temp\xperiacompanion\206.tmp"
+195256ms: UESession: Manifest verification data 877 bytes
+195273ms: UEsession: UE information retrieved!
+195273ms: UEsession: runGetRemoteVersion completed successfully
+195273ms: UIState: UI devicerepair updated to preloadRepair
+195273ms: UEsession: STATE changed to CheckVersion by stateHandler
+195524ms: UEsession: runCheckVersion completed with new version available
+195524ms: UEsession: STATE changed to DownloadInstaller by stateHandler
+195775ms: UEsession: Downloading UE installer...
+195775ms: UEsession: STATE changed to DownloadInstallerProgress by stateHandler
+195905ms: CertificateAlt: Validating Alt: https://software.sonymobile.com/update-engine/update-application/windows/files/201810121226/Sony_Mobile_Update_Engine_Setup-2.18.14.201810121226.exe-f37ff6c5ec4d95a6cf20324c62193fd3
+220239ms: UEsession: Received enough data...
+220239ms: UEsession: UE installer downloaded correctly and matching manifest, HTTP 206, 73546136 bytes
+220239ms: UEsession: Saving installer with size 73546136 to "C:\Users\user\AppData\Local\Temp\xperiacompanion\Sony_Mobile_Update_Engine_Setup-2.18.14.201810121226.exe"
+225607ms: UEsession: runDownloadInstallerProgress DL completed successfully
+225607ms: UIState: UI devicerepair updated to preloadRepair
+225607ms: UEsession: STATE changed to CheckInstallerValidity by stateHandler
+225858ms: UEsession: Verifying UE installer...
+232481ms: UEsession: runCheckInstaller completed successfully
+232481ms: UEsession: STATE changed to Install by stateHandler
+232732ms: UEsession: Installing UE...
+232778ms: PlatformWin32: RegOpenKeyExW failed with 2 requesting UE uninstall string from HKCU, will retry in HKLM
+232778ms: PlatformWin32: RegOpenKeyExW failed with 2 requesting UE uninstall string
+232782ms: base: Message sent to server, receiving reply as follows: 
+245387ms: base: SUCCESS
+245387ms: base: Message sent to server, receiving reply as follows: 
+245388ms: base: FAILURE
+245388ms: PlatformWin32: Service failed to get result of Update Engine install.
+250389ms: base: Message sent to server, receiving reply as follows: 
+250389ms: base: FAILURE
+250389ms: PlatformWin32: Service failed to get result of Update Engine install.
+255390ms: base: Message sent to server, receiving reply as follows: 
+255390ms: base: FAILURE
+255391ms: PlatformWin32: Service failed to get result of Update Engine install.
+260392ms: base: Message sent to server, receiving reply as follows: 
+260427ms: base: FAILURE
+260428ms: PlatformWin32: Service failed to get result of Update Engine install.
+265429ms: base: Message sent to server, receiving reply as follows: 
+265429ms: base: FAILURE
+265429ms: PlatformWin32: Service failed to get result of Update Engine install.
+270431ms: base: Message sent to server, receiving reply as follows: 
+270431ms: base: FAILURE
+270431ms: PlatformWin32: Service failed to get result of Update Engine install.
+275432ms: base: Message sent to server, receiving reply as follows: 
+275432ms: base: FAILURE
+275433ms: PlatformWin32: Service failed to get result of Update Engine install.
+280433ms: base: Message sent to server, receiving reply as follows: 
+280434ms: base: FAILURE
+280434ms: PlatformWin32: Service failed to get result of Update Engine install.
+285435ms: base: Message sent to server, receiving reply as follows: 
+285435ms: base: FAILURE
+285435ms: PlatformWin32: Service failed to get result of Update Engine install.
+290436ms: base: Message sent to server, receiving reply as follows: 
+290436ms: base: SUCCESS WaitExit 0
+290437ms: analytics: event = Service / UEInstall / Success
+331905ms: PlatformWin32: UE installation successful
+331905ms: PlatformWin32: installUEOptService driver install success !
+331905ms: UEsession: UE installed!
+331905ms: UEsession: runInstall completed successfully
+331905ms: UIState: UI devicerepair updated to preloadRepair
+331905ms: UEsession: STATE changed to StartLocalListener by stateHandler
+332157ms: UEsession: runStartLocalListener skipping, already started
+332157ms: UEsession: Local listener started on port 49328
+332158ms: UEsession: runStartLocalListener completed successfully
+332158ms: UEsession: STATE changed to StartUE by stateHandler
+332408ms: UEsession: Starting UE...
+332427ms: UEsession: UE start without service filtering
+332428ms: UEsession: Running UE from "C:\ProgramData\Sony Mobile\Update Engine\{3803D527-1003-474F-881A-7780AFC70C36}\Sony Mobile Update Engine.exe" on port 58088, 127.0.0.1
+332428ms: UEsession: UE server = 
+332428ms: UEsession: UE customization = 
+332428ms: UEsession: Clearing UE ini
+333019ms: UEsession: UE started
+333019ms: UEsession: runStartUE completed successfully, process = 3e0
+333019ms: UIState: UI devicerepair updated to preloadRepair
+333019ms: UEsession: STATE changed to PingUE by stateHandler
+339518ms: HttpHandler: HttpSendRequestA failed with 12029
+339518ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+339518ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+339518ms: UEsession: runSendSmartPing failed to send on attempt 1, will retry
+345916ms: HttpHandler: HttpSendRequestA failed with 12029
+345916ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+345916ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+345916ms: UEsession: runSendSmartPing failed to send on attempt 2, will retry
+352316ms: HttpHandler: HttpSendRequestA failed with 12029
+352316ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+352316ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+352316ms: UEsession: runSendSmartPing failed to send on attempt 3, will retry
+358713ms: HttpHandler: HttpSendRequestA failed with 12029
+358713ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+358713ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+359765ms: HttpHandler: HttpSendRequestA failed with 12029
+359766ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+359766ms: UEsession: runSendSmartPing sendSmartPing to 127.0.0.1:58088 failed
+359766ms: UEsession: runSendSmartPing failed to send on attempt 4, will retry
+366171ms: HttpHandler: HttpSendRequestA failed with 12029
+366171ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+366171ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+367179ms: HttpHandler: HttpSendRequestA failed with 12029
+367179ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+367179ms: UEsession: runSendSmartPing sendSmartPing to 127.0.0.1:58088 failed
+367179ms: UEsession: runSendSmartPing failed to send on attempt 5, will retry
+373577ms: HttpHandler: HttpSendRequestA failed with 12029
+373577ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+373577ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+374581ms: HttpHandler: HttpSendRequestA failed with 12029
+374581ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+374581ms: UEsession: runSendSmartPing sendSmartPing to 127.0.0.1:58088 failed
+374582ms: UEsession: runSendSmartPing failed to send on attempt 6, will retry
+380976ms: HttpHandler: HttpSendRequestA failed with 12029
+380977ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+380977ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+381980ms: HttpHandler: HttpSendRequestA failed with 12029
+381981ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+381981ms: UEsession: runSendSmartPing sendSmartPing to 127.0.0.1:58088 failed
+381981ms: UEsession: runSendSmartPing failed to send on attempt 7, will retry
+388374ms: HttpHandler: HttpSendRequestA failed with 12029
+388374ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+388374ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+389380ms: HttpHandler: HttpSendRequestA failed with 12029
+389380ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+389380ms: UEsession: runSendSmartPing sendSmartPing to 127.0.0.1:58088 failed
+389380ms: UEsession: runSendSmartPing failed to send on attempt 8, will retry
+395778ms: HttpHandler: HttpSendRequestA failed with 12029
+395779ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+395779ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+396783ms: HttpHandler: HttpSendRequestA failed with 12029
+396783ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+396783ms: UEsession: runSendSmartPing sendSmartPing to 127.0.0.1:58088 failed
+396783ms: UEsession: runSendSmartPing failed to send on attempt 9, will retry
+402319ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+402320ms: UEsession: STATE changed to PingProgress by stateHandler
+403323ms: UEsession: runSmartPingProgress timeout waiting for reply, will retry
+403323ms: UEsession: STATE changed to PingUE by stateHandler
+403558ms: UEsession: pingResult received in unexpected state 13
+403616ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+403617ms: UEsession: STATE changed to PingProgress by stateHandler
+404620ms: UEsession: runSmartPingProgress timeout waiting for reply, will retry
+404620ms: UEsession: STATE changed to PingUE by stateHandler
+404928ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+404928ms: UEsession: STATE changed to PingProgress by stateHandler
+405931ms: UEsession: runSmartPingProgress timeout waiting for reply, will retry
+405931ms: UEsession: STATE changed to PingUE by stateHandler
+406240ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+406240ms: UEsession: STATE changed to PingProgress by stateHandler
+406298ms: UEsession: Response to smart ping, UE at http://localhost:58088/ and local listener at http://localhost:49328/
+406299ms: UEsession: STATE changed to Login by UE result
+406299ms: UEsession: runSendLogin device connected during repair UE startup, checking device type
+406299ms: UEsession: runSendLogin repair security state type = COMMERCIAL
+406299ms: UEsession: runSendLogin device is commercial
+406299ms: UEsession: runSendLogin commercial login set
+406299ms: AppSettings: App settings requested
+406315ms: AppSettings: Loading app settings from disk
+406316ms: UEsession: runSendLogin searching for system proxy settings
+406325ms: getProxySettings: WinHttpGetProxyForURL type 1, 12180
+406325ms: UEsession: runSendLogin proxy search result: .ynn.e
+406325ms: UEsession: No proxies (left), logging in to UE with no proxy
+406325ms: UEsession: runSendLogin will login anonymously
+410917ms: UEsession: runSendLogin completed successfully
+410917ms: UEsession: STATE changed to LoginProgress by stateHandler
+410918ms: UEsession: pingResult received in unexpected state 16
+410918ms: UEsession: pingResult received in unexpected state 16
+410918ms: UEsession: pingResult received in unexpected state 16
+410918ms: UEsession: pingResult received in unexpected state 16
+410919ms: UEsession: pingResult received in unexpected state 16
+423574ms: UEsession: UE responded to login
+423574ms: UEsession: Logged in to UE! session ID = SoMC-SessionID1542128304927
+423574ms: UEsession: STATE changed to DownloadService by UE result
+423575ms: UIState: UI deviceupdate updated to preloadRepair
+423600ms: UEsession: runSendDownloadService completed successfully
+423600ms: UEsession: STATE changed to DownloadServiceProgress by stateHandler
+424197ms: UEsession: Received actionFailed for action downloadService24 with resultCode = 400, subResultCode = 0, deviceSessionID = 
+424197ms: UEsession: Preload not supported
+424197ms: UEsession: Repair preload mode, setting device to flash mode
+424197ms: UIState: UI devicerepair updated to preloadRepair
+424197ms: UEsession: STATE changed to SetDeviceToFlash by UE actionFailed
+424198ms: UEsession: Setting device to flash mode
+424198ms: UEsession: runSetDeviceToFlash completed successfully
+424198ms: UIState: UI deviceupdate updated to preloadRepair
+424198ms: analytics: event = AutoSetFlash / SendCommand / C2305 16.0.B.2.16
+424198ms: UEsession: STATE changed to WaitForDeviceReady by stateHandler
+432557ms: Device will change.
+432558ms: UIState: UI device updated
+432558ms: Remote features controller: Case "typeID" cleared
+432558ms: Remote features controller: Case "customerID" cleared
+432561ms: Device did get removed
+432561ms: UIState: UI device updated
+432561ms: UEsession: Device disconnected in state 23, expected and continuing
+440708ms: UEsession: Device connection detected!
+440708ms: UEsession: STATE changed to GetAllConnections by UE notification
+440733ms: UEsession: runSendGetAllConnections completed successfully
+440733ms: UEsession: STATE changed to GetAllConnectionsProgress by stateHandler
+440762ms: UEsession: UE responded to getAllConnections
+440762ms: UEsession: Device connection detected
+440762ms: UEsession: getAllConnectionsResult returned device connection successfully!
+440762ms: UEsession: STATE changed to GetDeviceInfo by UE result
+440780ms: UEsession: runSendGetDeviceInfo completed successfully
+440780ms: UEsession: STATE changed to GetDeviceInfoProgress by stateHandler
+442179ms: UEsession: Device info: C2305 3532 1276-3273 R3A 16.0.B.2.16
+442180ms: UEsession: getPhoneInfoResult recommended = 3
+442180ms: UEsession: oldVersion = 16.0.B.2.16
+442180ms: UEsession: getPhoneInfoResult single object id 
+442180ms: UEsession: Firmware  with config  and version 
+442180ms: UEsession: handleGetDeviceInfoResult no firmware found, probable prototype without login
+442180ms: UEsession: ERROR in getPhoneInfoResult
+442180ms: UEsession: STATE changed to Shutdown by UE result
+442198ms: UEsession: runSendShutdown completed successfully
+442198ms: UEsession: STATE changed to ShuttingDown by stateHandler
+445435ms: UEsession: UE exited with 0
+445435ms: UEsession: STATE changed to TerminateUE by stateHandler
+445687ms: UEsession: runTerminateUE process = 3e0
+445688ms: UEsession: STATE changed to CloseLocalListener by stateHandler
+445940ms: UEsession: runCloseLocalListener
+445940ms: UEListener: Stopping server
+445940ms: UEListener: Waiting for connections to clear..
+446291ms: UEListener: Pre-stop sleep
+446641ms: UEListener: Stopping daemon
+446642ms: UEListener: Server stopped!
+446642ms: UEsession: STATE changed to ResetToIdle by stateHandler
+446893ms: UEsession: runResetToIdle
+446893ms: analytics: event = DeviceRepair / Unsupported / UEGetPhoneInfoRepairModelNotSupported
+446893ms: UEsession: UE reset to error (idle) state
+446893ms: UIState: UI devicerepair updated to errorFatal
+446894ms: UEsession: STATE changed to ErrorState by stateHandler
+462211ms: UICommand: devicerepair
+462211ms: UEsession: STATE changed to ResetToIdle by commandHandler
+462212ms: UEsession: runResetToIdle
+462212ms: UIState: UI devicerepair updated to idle
+462212ms: UEsession: STATE changed to Idle by stateHandler
+576652ms: UICommand: devicerepair
+576652ms: UEsession: STATE changed to WaitForRepairAcceptBattery by commandHandler
+614367ms: UICommand: devicerepair
+614367ms: UEsession: STATE changed to Idle by commandHandler
+639224ms: UICommand: devicerepair
+639225ms: UIState: UI deviceupdate updated to idle
+639225ms: UIState: UI devicerepair updated to repairLoading
+639225ms: analytics: event = DeviceRepair / Start
+639225ms: UEsession: STATE changed to StartLocalListener by commandHandler
+639225ms: UEsession: Starting local listener...
+639225ms: UEsession: Trying listener on port 0, 127.0.0.1
+639228ms: UListener started on port : 49392
+639228ms: UEsession: Local listener started on port 49392
+639228ms: UEsession: runStartLocalListener completed successfully
+639228ms: UEsession: STATE changed to StartUE by stateHandler
+639479ms: UEsession: Starting UE...
+639498ms: UEsession: UE start without service filtering
+639498ms: UEsession: Running UE from "C:\ProgramData\Sony Mobile\Update Engine\{3803D527-1003-474F-881A-7780AFC70C36}\Sony Mobile Update Engine.exe" on port 58088, 127.0.0.1
+639498ms: UEsession: UE server = 
+639498ms: UEsession: UE customization = 
+639498ms: UEsession: Clearing UE ini
+639508ms: UEsession: UE started
+639508ms: UEsession: runStartUE completed successfully, process = cc4
+639508ms: UIState: UI devicerepair updated to repairLoading
+639508ms: UEsession: STATE changed to PingUE by stateHandler
+646656ms: HttpHandler: HttpSendRequestA failed with 12029
+646656ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+646656ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+646657ms: UEsession: runSendSmartPing failed to send on attempt 1, will retry
+653050ms: HttpHandler: HttpSendRequestA failed with 12029
+653050ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+653050ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+653050ms: UEsession: runSendSmartPing failed to send on attempt 2, will retry
+659444ms: HttpHandler: HttpSendRequestA failed with 12029
+659444ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+659444ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+659444ms: UEsession: runSendSmartPing failed to send on attempt 3, will retry
+666003ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+666004ms: UEsession: STATE changed to PingProgress by stateHandler
+667006ms: UEsession: runSmartPingProgress timeout waiting for reply, will retry
+667006ms: UEsession: STATE changed to PingUE by stateHandler
+667312ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+667313ms: UEsession: STATE changed to PingProgress by stateHandler
+667313ms: UEsession: Response to smart ping, UE at http://localhost:58088/ and local listener at http://localhost:49392/
+667313ms: UEsession: STATE changed to Login by UE result
+667313ms: UEsession: runSendLogin no active device type found, proceeding to fallback
+667313ms: UEsession: runSendLogin device is commercial
+667313ms: UEsession: runSendLogin commercial login set
+667314ms: AppSettings: App settings requested
+667314ms: AppSettings: Loading app settings from disk
+667315ms: UEsession: runSendLogin searching for system proxy settings
+667357ms: getProxySettings: WinHttpGetProxyForURL type 1, 12180
+667357ms: UEsession: runSendLogin proxy search result: .ynn.e
+667357ms: UEsession: No proxies (left), logging in to UE with no proxy
+667358ms: UEsession: runSendLogin will login anonymously
+670494ms: UEsession: runSendLogin completed successfully
+670494ms: UEsession: STATE changed to LoginProgress by stateHandler
+670495ms: UEsession: pingResult received in unexpected state 16
+670510ms: UEsession: pingResult received in unexpected state 16
+683688ms: UEsession: UE responded to login
+683689ms: UEsession: Logged in to UE! session ID = SoMC-SessionID1542128565753
+683689ms: UIState: UI devicerepair updated to repairDeviceInstructions
+683689ms: UEsession: STATE changed to WaitForDeviceReady by UE result
+781779ms: UEsession: Device connection detected!
+781779ms: UEsession: STATE changed to GetAllConnections by UE notification
+781816ms: UEsession: runSendGetAllConnections completed successfully
+781817ms: UEsession: STATE changed to GetAllConnectionsProgress by stateHandler
+781837ms: UEsession: UE responded to getAllConnections
+781837ms: UEsession: Device connection detected
+781838ms: UEsession: getAllConnectionsResult returned device connection successfully!
+781838ms: UEsession: STATE changed to GetDeviceInfo by UE result
+781854ms: UEsession: runSendGetDeviceInfo completed successfully
+781854ms: UEsession: STATE changed to GetDeviceInfoProgress by stateHandler
+783234ms: UEsession: Device info: C2305 3532 1276-3273 R3A 16.0.B.2.16
+783234ms: UEsession: getPhoneInfoResult recommended = 3
+783235ms: UEsession: oldVersion = 16.0.B.2.16
+783235ms: UEsession: getPhoneInfoResult single object id 
+783235ms: UEsession: Firmware  with config  and version 
+783235ms: UEsession: handleGetDeviceInfoResult no firmware found, probable prototype without login
+783235ms: UEsession: ERROR in getPhoneInfoResult
+783235ms: UEsession: STATE changed to Shutdown by UE result
+783250ms: UEsession: runSendShutdown completed successfully
+783251ms: UEsession: STATE changed to ShuttingDown by stateHandler
+786093ms: UEsession: UE exited with 0
+786093ms: UEsession: STATE changed to TerminateUE by stateHandler
+786344ms: UEsession: runTerminateUE process = cc4
+786344ms: UEsession: STATE changed to CloseLocalListener by stateHandler
+786595ms: UEsession: runCloseLocalListener
+786595ms: UEListener: Stopping server
+786595ms: UEListener: Waiting for connections to clear..
+786946ms: UEListener: Pre-stop sleep
+787296ms: UEListener: Stopping daemon
+787297ms: UEListener: Server stopped!
+787298ms: UEsession: STATE changed to ResetToIdle by stateHandler
+787549ms: UEsession: runResetToIdle
+787549ms: analytics: event = DeviceRepair / Unsupported / UEGetPhoneInfoRepairModelNotSupported
+787549ms: UEsession: UE reset to error (idle) state
+787549ms: UIState: UI devicerepair updated to errorFatal
+787549ms: UEsession: STATE changed to ErrorState by stateHandler
+792786ms: UICommand: devicerepair
+792786ms: UEsession: STATE changed to ResetToIdle by commandHandler
+792786ms: UEsession: runResetToIdle
+792787ms: UIState: UI devicerepair updated to idle
+792787ms: UEsession: STATE changed to Idle by stateHandler
+1398047ms: UICommand: getappsettings
+1398047ms: AppSettings: App settings requested
+1398047ms: AppSettings: Loading app settings from disk
+1593112ms: UICommand: backuprestore
+1593131ms: BRsession: prepareRestore command received
+1593135ms: analytics: event = Restore / Start / Start
+1593137ms: UIState: UI backuprestore updated to restorePreparing
+1593137ms: BRsession: runPrepareRestore preparing restore for  no device connected
+1593140ms: BRsession: No restore sets in directory
+1593140ms: UIState: UI backuprestore updated to restoreBackupSelection
+1808723ms: UICommand: backuprestore
+1808724ms: BRsession: Cancel received
+1808724ms: analytics: event = Restore / Canceled / WaitingForBackupSelection
+1808724ms: UIState: UI backuprestore updated to idle
+1808724ms: BRsession: runResetToIdle
+1808724ms: BRsession: State reset to idle
+2062649ms: Device will change.
+2062649ms: UIState: UI device updated
+2062649ms: mtp: startDevice
+2062649ms: DEVDETAIL: vid/pid = 0x0fce 0x1a3
+2062680ms: mtp: startDevice device info: C2305, Sony, 43 supported ops
+2062681ms: DEVDETAIL: StandardVersion = 100
+2062681ms: DEVDETAIL: VendorExtID = 6
+2062681ms: DEVDETAIL: MTP version = 100
+2062681ms: DEVDETAIL: MTP extensions = "microsoft.com: 1.0; android.com: 1.0; microsoft.com/WPDNA: 1.0;sonyericsson.com/SE: 1.0; sony.net/MRLN: 1.0;"
+2062681ms: DEVDETAIL: Functional mode = 0
+2062681ms: DEVDETAIL: 43 supported operations
+2062681ms: DEVDETAIL: GetDeviceInfo, OpenSession, CloseSession, GetStorageIDs, GetStorageInfo, GetNumObjects, GetObjectHandles, GetObjectInfo, GetObject, GetThumb, DeleteObject, SendObjectInfo, SendObject, GetDevicePropDesc, GetDevicePropValue, SetDevicePropValue, ResetDevicePropValue, GetPartialObject, GetObjectPropsSupported, GetObjectPropDesc, GetObjectPropValue, SetObjectPropValue, GetObjectPropList, GetObjectReferences, SetObjectReferences, MTP_OPERATION_0x95c1, MTP_OPERATION_0x95c2, MTP_OPERATION_0x95c3, MTP_OPERATION_0x95c4, MTP_OPERATION_0x95c5, SetPhoneMode, GetExtDevicePropValue, GetBackupInfo, SetPacketName, BackupFiles, BackupFinish, RestoreFiles, CancelBackupRestore, MTP_OPERATION_0x940c, MTP_OPERATION_0x940d, MTP_OPERATION_0x9407, MTP_OPERATION_0x9408, MTP_OPERATION_0x9409
+2062682ms: DEVDETAIL: 8 supported events
+2062682ms: DEVDETAIL: ObjectAdded, ObjectRemoved, StoreAdded, StoreRemoved, ObjectInfoChanged, StorageInfoChanged, MTP_EVENT_0xc350, BackupRestoreResult
+2062682ms: DEVDETAIL: 6 supported device properties
+2062682ms: DEVDETAIL: MTP_DEV_PROP_0xd401, DeviceFriendlyName, MTP_DEV_PROP_0xd405, MTP_DEV_PROP_0x5003, MTP_DEV_PROP_0xd120, BatteryLevel
+2062682ms: DEVDETAIL: Manufacturer = Sony
+2062682ms: DEVDETAIL: Model = C2305
+2062682ms: DEVDETAIL: Device version = 1.0
+2062682ms: DEVDETAIL: Serial number = QO4729C39006
+2062685ms: mtp: OpenSession
+2062685ms: mtp: OpenSession done
+2063403ms: xc: Received piped message, SHOW_WINDOW
+2072707ms: DEVDETAIL: TypeID = PM-0570-BV
+2088685ms: DEVDETAIL: Modelname =  挀漀洀⸀猀漀渀礀攀爀椀挀猀猀漀渀⸀洀琀瀀⸀攀砀琀攀渀猀椀漀渀⸀戀愀挀欀甀瀀爀攀猀琀漀爀攀㨀 ㄀⸀㄀㬀 挀漀洀⸀猀漀渀礀攀爀椀挀猀猀漀渀⸀洀琀瀀⸀攀砀琀攀渀猀椀漀渀⸀洀愀爀氀椀渀㨀 ㄀⸀　㬀 挀漀洀⸀猀漀渀礀攀爀椀挀猀猀漀渀⸀洀琀瀀⸀攀砀琀攀渀猀椀漀渀⸀甀瀀搀愀琀攀㨀 ㄀⸀　㬀 挀漀洀⸀猀漀渀礀攀爀椀挀猀猀漀渀⸀洀琀瀀㨀 ㄀⸀
+3291920ms: DEVDETAIL: IMEI length = 15
+3893077ms: DEVDETAIL: Displayname = Xperia™ C (C2305)
+4193657ms: DEVDETAIL: App product number = 1275-5177
+4494231ms: DEVDETAIL: App production revision = 16.0.B.2.16
+4794815ms: DEVDETAIL: CDF product number = 1276-3273
+5095394ms: DEVDETAIL: CDF product revision = R3A
+5121361ms: DEVDETAIL: FS product number = WORLD-i
+5121363ms: DEVDETAIL: FS product revision = 16.0.B.2.16
+5121366ms: DEVDETAIL: Android version = 
+5121367ms: DEVDETAIL: CustomerID = 439
+5121370ms: DEVDETAIL: EncryptionState = 0
+5121371ms: DEVDETAIL: AdminState = 0
+5121374ms: mtp: startDevice - begin updateLockState
+5121374ms: mtp: updateLockState - begin getStorageIDs
+5121376ms: mtp: Lock state cummunication error. Expected, user switched mode
+5121376ms: mtp: startDevice successful
+5121422ms: Remote features controller: Case "typeID" = "PM-0570-BV"
+5121422ms: Remote features controller: Case "customerID" = "439"
+5121423ms: Device did start: C2305
+5121424ms: UIState: UI device updated
+5122429ms: Device will change.
+5122430ms: UIState: UI device updated
+5122430ms: Remote features controller: Case "typeID" cleared
+5122430ms: Remote features controller: Case "customerID" cleared
+5122430ms: Device did get removed
+5122431ms: UIState: UI device updated
+5182815ms: UICommand: devicerepair
+5182815ms: UEsession: STATE changed to WaitForRepairAcceptBattery by commandHandler
+5437200ms: Device will change.
+5437201ms: UIState: UI device updated
+5437201ms: mtp: startDevice
+5437201ms: DEVDETAIL: vid/pid = 0x0fce 0x1a3
+5437220ms: mtp: startDevice device info: C2305, Sony, 43 supported ops
+5437220ms: DEVDETAIL: StandardVersion = 100
+5437220ms: DEVDETAIL: VendorExtID = 6
+5437220ms: DEVDETAIL: MTP version = 100
+5437220ms: DEVDETAIL: MTP extensions = "microsoft.com: 1.0; android.com: 1.0; microsoft.com/WPDNA: 1.0;sonyericsson.com/SE: 1.0; sony.net/MRLN: 1.0;"
+5437220ms: DEVDETAIL: Functional mode = 0
+5437220ms: DEVDETAIL: 43 supported operations
+5437221ms: DEVDETAIL: GetDeviceInfo, OpenSession, CloseSession, GetStorageIDs, GetStorageInfo, GetNumObjects, GetObjectHandles, GetObjectInfo, GetObject, GetThumb, DeleteObject, SendObjectInfo, SendObject, GetDevicePropDesc, GetDevicePropValue, SetDevicePropValue, ResetDevicePropValue, GetPartialObject, GetObjectPropsSupported, GetObjectPropDesc, GetObjectPropValue, SetObjectPropValue, GetObjectPropList, GetObjectReferences, SetObjectReferences, MTP_OPERATION_0x95c1, MTP_OPERATION_0x95c2, MTP_OPERATION_0x95c3, MTP_OPERATION_0x95c4, MTP_OPERATION_0x95c5, SetPhoneMode, GetExtDevicePropValue, GetBackupInfo, SetPacketName, BackupFiles, BackupFinish, RestoreFiles, CancelBackupRestore, MTP_OPERATION_0x940c, MTP_OPERATION_0x940d, MTP_OPERATION_0x9407, MTP_OPERATION_0x9408, MTP_OPERATION_0x9409
+5437221ms: DEVDETAIL: 8 supported events
+5437221ms: DEVDETAIL: ObjectAdded, ObjectRemoved, StoreAdded, StoreRemoved, ObjectInfoChanged, StorageInfoChanged, MTP_EVENT_0xc350, BackupRestoreResult
+5437221ms: DEVDETAIL: 6 supported device properties
+5437221ms: DEVDETAIL: MTP_DEV_PROP_0xd401, DeviceFriendlyName, MTP_DEV_PROP_0xd405, MTP_DEV_PROP_0x5003, MTP_DEV_PROP_0xd120, BatteryLevel
+5437221ms: DEVDETAIL: Manufacturer = Sony
+5437221ms: DEVDETAIL: Model = C2305
+5437221ms: DEVDETAIL: Device version = 1.0
+5437222ms: DEVDETAIL: Serial number = QO4729C39006
+5437224ms: mtp: OpenSession
+5437224ms: mtp: OpenSession done
+5438621ms: xc: Received piped message, SHOW_WINDOW
+5447318ms: DEVDETAIL: TypeID = PM-0570-BV
+5472784ms: DEVDETAIL: Modelname =  挀漀洀⸀猀漀渀礀攀爀椀挀猀猀漀渀⸀洀琀瀀⸀攀砀琀攀渀猀椀漀渀⸀戀愀挀欀甀瀀爀攀猀琀漀爀攀㨀 ㄀⸀㄀㬀 挀漀洀⸀猀漀渀礀攀爀椀挀猀猀漀渀⸀洀琀瀀⸀攀砀琀攀渀猀椀漀渀⸀洀愀爀氀椀渀㨀 ㄀⸀　㬀 挀漀洀⸀猀漀渀礀攀爀椀挀猀猀漀渀⸀洀琀瀀⸀攀砀琀攀渀猀椀漀渀⸀甀瀀搀愀琀攀㨀 ㄀⸀　㬀 挀漀洀⸀猀漀渀礀攀爀椀挀猀猀漀渀⸀洀琀瀀㨀 ㄀⸀
+5589810ms: DEVDETAIL: IMEI length = 15
+5589815ms: DEVDETAIL: Displayname = Xperia™ C (C2305)
+5589817ms: DEVDETAIL: App product number = 1275-5177
+5589819ms: DEVDETAIL: App production revision = 16.0.B.2.16
+5589821ms: DEVDETAIL: CDF product number = 1276-3273
+5589823ms: DEVDETAIL: CDF product revision = R3A
+5589826ms: DEVDETAIL: FS product number = WORLD-i
+5589828ms: DEVDETAIL: FS product revision = 16.0.B.2.16
+5589830ms: DEVDETAIL: Android version = 
+5589832ms: DEVDETAIL: CustomerID = 439
+5589834ms: DEVDETAIL: EncryptionState = 0
+5589836ms: DEVDETAIL: AdminState = 0
+5589836ms: mtp: startDevice - begin updateLockState
+5589836ms: mtp: updateLockState - begin getStorageIDs
+5589837ms: mtp: Lock state cummunication error. Expected, user switched mode
+5589837ms: mtp: startDevice successful
+5589837ms: Remote features controller: Case "typeID" = "PM-0570-BV"
+5589837ms: Remote features controller: Case "customerID" = "439"
+5589838ms: Device did start: C2305
+5589838ms: UIState: UI device updated
+5589974ms: UIState: UI devicerepair updated to welcome
+5590841ms: Device will change.
+5590842ms: UIState: UI device updated
+5590842ms: Remote features controller: Case "typeID" cleared
+5590842ms: Remote features controller: Case "customerID" cleared
+5590843ms: Device did get removed
+5590843ms: UIState: UI device updated
+5704980ms: xc: Received piped message, SHOW_WINDOW
+5705124ms: Device will change.
+5705124ms: UIState: UI device updated
+5705125ms: mtp: startDevice
+5705125ms: DEVDETAIL: vid/pid = 0x0fce 0x1a3
+5705148ms: mtp: startDevice device info: C2305, Sony, 43 supported ops
+5705148ms: DEVDETAIL: StandardVersion = 100
+5705148ms: DEVDETAIL: VendorExtID = 6
+5705148ms: DEVDETAIL: MTP version = 100
+5705148ms: DEVDETAIL: MTP extensions = "microsoft.com: 1.0; android.com: 1.0; microsoft.com/WPDNA: 1.0;sonyericsson.com/SE: 1.0; sony.net/MRLN: 1.0;"
+5705148ms: DEVDETAIL: Functional mode = 0
+5705148ms: DEVDETAIL: 43 supported operations
+5705148ms: DEVDETAIL: GetDeviceInfo, OpenSession, CloseSession, GetStorageIDs, GetStorageInfo, GetNumObjects, GetObjectHandles, GetObjectInfo, GetObject, GetThumb, DeleteObject, SendObjectInfo, SendObject, GetDevicePropDesc, GetDevicePropValue, SetDevicePropValue, ResetDevicePropValue, GetPartialObject, GetObjectPropsSupported, GetObjectPropDesc, GetObjectPropValue, SetObjectPropValue, GetObjectPropList, GetObjectReferences, SetObjectReferences, MTP_OPERATION_0x95c1, MTP_OPERATION_0x95c2, MTP_OPERATION_0x95c3, MTP_OPERATION_0x95c4, MTP_OPERATION_0x95c5, SetPhoneMode, GetExtDevicePropValue, GetBackupInfo, SetPacketName, BackupFiles, BackupFinish, RestoreFiles, CancelBackupRestore, MTP_OPERATION_0x940c, MTP_OPERATION_0x940d, MTP_OPERATION_0x9407, MTP_OPERATION_0x9408, MTP_OPERATION_0x9409
+5705149ms: DEVDETAIL: 8 supported events
+5705149ms: DEVDETAIL: ObjectAdded, ObjectRemoved, StoreAdded, StoreRemoved, ObjectInfoChanged, StorageInfoChanged, MTP_EVENT_0xc350, BackupRestoreResult
+5705149ms: DEVDETAIL: 6 supported device properties
+5705149ms: DEVDETAIL: MTP_DEV_PROP_0xd401, DeviceFriendlyName, MTP_DEV_PROP_0xd405, MTP_DEV_PROP_0x5003, MTP_DEV_PROP_0xd120, BatteryLevel
+5705149ms: DEVDETAIL: Manufacturer = Sony
+5705149ms: DEVDETAIL: Model = C2305
+5705149ms: DEVDETAIL: Device version = 1.0
+5705149ms: DEVDETAIL: Serial number = QO4729C39006
+5705152ms: mtp: OpenSession
+5705152ms: mtp: OpenSession done
+5715169ms: DEVDETAIL: TypeID = PM-0570-BV
+5728740ms: DEVDETAIL: Modelname = C2305
+5728765ms: DEVDETAIL: IMEI length = 15
+5728786ms: DEVDETAIL: Displayname = Xperia™ C (C2305)
+5728792ms: DEVDETAIL: App product number = 1275-5177
+5728792ms: DEVDETAIL: App production revision = 16.0.B.2.16
+5728792ms: DEVDETAIL: CDF product number = 1276-3273
+5728792ms: DEVDETAIL: CDF product revision = R3A
+5728792ms: DEVDETAIL: FS product number = WORLD-i
+5728793ms: DEVDETAIL: FS product revision = 16.0.B.2.16
+5728793ms: DEVDETAIL: Android version = 
+5728793ms: DEVDETAIL: CustomerID = 439
+5728793ms: DEVDETAIL: EncryptionState = 0
+5728793ms: DEVDETAIL: AdminState = 0
+5728793ms: mtp: startDevice - begin updateLockState
+5728793ms: mtp: updateLockState - begin getStorageIDs
+5728794ms: mtp: Lock state cummunication error. Expected, user switched mode
+5728794ms: mtp: startDevice successful
+5728794ms: Remote features controller: Case "typeID" = "PM-0570-BV"
+5728794ms: Remote features controller: Case "customerID" = "439"
+5728795ms: Device did start: C2305
+5728811ms: UIState: UI device updated
+5729995ms: Device will change.
+5730000ms: UIState: UI device updated
+5730001ms: Remote features controller: Case "typeID" cleared
+5730001ms: Remote features controller: Case "customerID" cleared
+5730001ms: Device did get removed
+5730002ms: UIState: UI device updated
+5750662ms: xc: Received piped message, SHOW_WINDOW
+5772660ms: UICommand: setappsettings
+5772661ms: AppSettings: Loading app settings from disk
+5772682ms: AppSettings: Saved app settings
+5772683ms: AppSettings: App settings requested
+5772684ms: AppSettings: Loading app settings from disk
+5772684ms: AppSettings: App settings requested
+5772685ms: AppSettings: Loading app settings from disk
+5772711ms: UICommand: getappsettings
+5772711ms: AppSettings: App settings requested
+5772712ms: AppSettings: Loading app settings from disk
+5783925ms: xc: Received piped message, SHOW_WINDOW
+5783925ms: xc: SetForegroundWindow failed
+5809794ms: xc: Received piped message, SHOW_WINDOW
+5809794ms: xc: SetForegroundWindow failed
+5816691ms: UICommand: devicerepair
+5816691ms: UEsession: STATE changed to Idle by commandHandler
+5824908ms: UICommand: devicerepair
+5824908ms: UIState: UI devicerepair updated to repairLoading
+5824908ms: analytics: event = DeviceRepair / Start
+5824908ms: UEsession: STATE changed to StartLocalListener by commandHandler
+5824909ms: UEsession: Starting local listener...
+5824909ms: UEsession: Trying listener on port 0, 127.0.0.1
+5824911ms: UListener started on port : 49490
+5824911ms: UEsession: Local listener started on port 49490
+5824911ms: UEsession: runStartLocalListener completed successfully
+5824912ms: UEsession: STATE changed to StartUE by stateHandler
+5825162ms: UEsession: Starting UE...
+5825182ms: UEsession: UE start without service filtering
+5825182ms: UEsession: Running UE from "C:\ProgramData\Sony Mobile\Update Engine\{3803D527-1003-474F-881A-7780AFC70C36}\Sony Mobile Update Engine.exe" on port 58088, 127.0.0.1
+5825182ms: UEsession: UE server = 
+5825182ms: UEsession: UE customization = 
+5825182ms: UEsession: Clearing UE ini
+5826426ms: UEsession: UE started
+5826426ms: UEsession: runStartUE completed successfully, process = eec
+5826427ms: UIState: UI devicerepair updated to repairLoading
+5826427ms: UEsession: STATE changed to PingUE by stateHandler
+5832582ms: HttpHandler: HttpSendRequestA failed with 12029
+5832582ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+5832582ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+5832582ms: UEsession: runSendSmartPing failed to send on attempt 1, will retry
+5837112ms: UICommand: openUrl
+5838982ms: HttpHandler: HttpSendRequestA failed with 12029
+5838983ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+5838983ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+5838983ms: UEsession: runSendSmartPing failed to send on attempt 2, will retry
+5845475ms: HttpHandler: HttpSendRequestA failed with 12029
+5845475ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+5845475ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+5845475ms: UEsession: runSendSmartPing failed to send on attempt 3, will retry
+5851881ms: HttpHandler: HttpSendRequestA failed with 12029
+5851881ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+5851881ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+5852894ms: HttpHandler: HttpSendRequestA failed with 12029
+5852894ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+5852894ms: UEsession: runSendSmartPing sendSmartPing to 127.0.0.1:58088 failed
+5852894ms: UEsession: runSendSmartPing failed to send on attempt 4, will retry
+5859293ms: HttpHandler: HttpSendRequestA failed with 12029
+5859293ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+5859293ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+5860296ms: HttpHandler: HttpSendRequestA failed with 12029
+5860297ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+5860297ms: UEsession: runSendSmartPing sendSmartPing to 127.0.0.1:58088 failed
+5860297ms: UEsession: runSendSmartPing failed to send on attempt 5, will retry
+5866700ms: HttpHandler: HttpSendRequestA failed with 12029
+5866700ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+5866700ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+5867704ms: HttpHandler: HttpSendRequestA failed with 12029
+5867704ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+5867704ms: UEsession: runSendSmartPing sendSmartPing to 127.0.0.1:58088 failed
+5867704ms: UEsession: runSendSmartPing failed to send on attempt 6, will retry
+5874107ms: HttpHandler: HttpSendRequestA failed with 12029
+5874108ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+5874108ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+5875113ms: HttpHandler: HttpSendRequestA failed with 12029
+5875113ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+5875113ms: UEsession: runSendSmartPing sendSmartPing to 127.0.0.1:58088 failed
+5875114ms: UEsession: runSendSmartPing failed to send on attempt 7, will retry
+5880655ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+5880656ms: UEsession: STATE changed to PingProgress by stateHandler
+5881658ms: UEsession: runSmartPingProgress timeout waiting for reply, will retry
+5881658ms: UEsession: STATE changed to PingUE by stateHandler
+5881990ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+5881990ms: UEsession: STATE changed to PingProgress by stateHandler
+5881990ms: UEsession: Response to smart ping, UE at http://localhost:58088/ and local listener at http://localhost:49490/
+5881990ms: UEsession: STATE changed to Login by UE result
+5881991ms: UEsession: runSendLogin no active device type found, proceeding to fallback
+5881991ms: UEsession: runSendLogin device is commercial
+5881991ms: UEsession: runSendLogin commercial login set
+5881991ms: AppSettings: App settings requested
+5881992ms: AppSettings: Loading app settings from disk
+5881992ms: UEsession: runSendLogin searching for system proxy settings
+5882041ms: getProxySettings: WinHttpGetProxyForURL type 1, 12180
+5882041ms: UEsession: runSendLogin proxy search result: .ynn.e
+5882041ms: UEsession: No proxies (left), logging in to UE with no proxy
+5882041ms: UEsession: runSendLogin will login anonymously
+5885501ms: UEsession: runSendLogin completed successfully
+5885501ms: UEsession: STATE changed to LoginProgress by stateHandler
+5885501ms: UEsession: pingResult received in unexpected state 16
+5885575ms: UEsession: pingResult received in unexpected state 16
+5899903ms: UEsession: UE responded to login
+5899903ms: UEsession: Logged in to UE! session ID = SoMC-SessionID1542133780448
+5899904ms: UIState: UI devicerepair updated to repairDeviceInstructions
+5899904ms: UEsession: STATE changed to WaitForDeviceReady by UE result
+6031347ms: xc: Received piped message, SHOW_WINDOW
+6031347ms: xc: SetForegroundWindow failed
+6031910ms: Device will change.
+6031911ms: UIState: UI device updated
+6031947ms: mtp: startDevice
+6031948ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6032004ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6032006ms: mtp: OpenSession
+6032006ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6032006ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6032006ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6032010ms: Device did get removed
+6032011ms: UIState: UI device updated
+6036996ms: Device will change.
+6036996ms: UIState: UI device updated
+6036997ms: mtp: startDevice
+6036997ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6037011ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6037013ms: mtp: OpenSession
+6037013ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6037013ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6037013ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6037015ms: Device did get removed
+6037016ms: UIState: UI device updated
+6048130ms: Device will change.
+6048130ms: UIState: UI device updated
+6048131ms: mtp: startDevice
+6048131ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6048145ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6048146ms: mtp: OpenSession
+6048146ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6048146ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6048147ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6048148ms: Device did get removed
+6048149ms: UIState: UI device updated
+6059287ms: Device will change.
+6059287ms: UIState: UI device updated
+6059287ms: mtp: startDevice
+6059288ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6059296ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6059298ms: mtp: OpenSession
+6059298ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6059298ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6059299ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6059300ms: Device did get removed
+6059300ms: UIState: UI device updated
+6070438ms: Device will change.
+6070439ms: UIState: UI device updated
+6070439ms: mtp: startDevice
+6070439ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6070447ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6070449ms: mtp: OpenSession
+6070449ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6070449ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6070450ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6070451ms: Device did get removed
+6070451ms: UIState: UI device updated
+6081541ms: Device will change.
+6081541ms: UIState: UI device updated
+6081541ms: mtp: startDevice
+6081542ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6081550ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6081552ms: mtp: OpenSession
+6081552ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6081552ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6081553ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6081554ms: Device did get removed
+6081554ms: UIState: UI device updated
+6092566ms: Device will change.
+6092566ms: UIState: UI device updated
+6092566ms: mtp: startDevice
+6092567ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6092575ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6092577ms: mtp: OpenSession
+6092577ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6092577ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6092577ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6092578ms: Device did get removed
+6092578ms: UIState: UI device updated
+6103591ms: Device will change.
+6103591ms: UIState: UI device updated
+6103591ms: mtp: startDevice
+6103592ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6103602ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6103603ms: mtp: OpenSession
+6103603ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6103604ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6103604ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6103605ms: Device did get removed
+6103605ms: UIState: UI device updated
+6114628ms: Device will change.
+6114628ms: UIState: UI device updated
+6114628ms: mtp: startDevice
+6114628ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6114638ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6114640ms: mtp: OpenSession
+6114640ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6114640ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6114640ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6114641ms: Device did get removed
+6114642ms: UIState: UI device updated
+6125654ms: Device will change.
+6125654ms: UIState: UI device updated
+6125655ms: mtp: startDevice
+6125655ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6125664ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6125665ms: mtp: OpenSession
+6125666ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6125666ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6125666ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6125667ms: Device did get removed
+6125667ms: UIState: UI device updated
+6136681ms: Device will change.
+6136681ms: UIState: UI device updated
+6136681ms: mtp: startDevice
+6136681ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6136690ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6136691ms: mtp: OpenSession
+6136691ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6136692ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6136692ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6136693ms: Device did get removed
+6136693ms: UIState: UI device updated
+6147707ms: Device will change.
+6147707ms: UIState: UI device updated
+6147708ms: mtp: startDevice
+6147708ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6147717ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6147718ms: mtp: OpenSession
+6147719ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6147719ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6147719ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6147720ms: Device did get removed
+6147720ms: UIState: UI device updated
+6158735ms: Device will change.
+6158735ms: UIState: UI device updated
+6158735ms: mtp: startDevice
+6158736ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6158745ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6158746ms: mtp: OpenSession
+6158747ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6158747ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6158747ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6158748ms: Device did get removed
+6158748ms: UIState: UI device updated
+6169762ms: Device will change.
+6169762ms: UIState: UI device updated
+6169762ms: mtp: startDevice
+6169762ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6169771ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6169772ms: mtp: OpenSession
+6169773ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6169773ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6169773ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6169774ms: Device did get removed
+6169774ms: UIState: UI device updated
+6180790ms: Device will change.
+6180791ms: UIState: UI device updated
+6180791ms: mtp: startDevice
+6180791ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6180800ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6180802ms: mtp: OpenSession
+6180802ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6180802ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6180802ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6180803ms: Device did get removed
+6180803ms: UIState: UI device updated
+6191818ms: Device will change.
+6191818ms: UIState: UI device updated
+6191818ms: mtp: startDevice
+6191818ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6191827ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6191829ms: mtp: OpenSession
+6191829ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6191829ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6191829ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6191830ms: Device did get removed
+6191830ms: UIState: UI device updated
+6202846ms: Device will change.
+6202847ms: UIState: UI device updated
+6202847ms: mtp: startDevice
+6202847ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6202856ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6202858ms: mtp: OpenSession
+6202858ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6202858ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6202858ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6202859ms: Device did get removed
+6202860ms: UIState: UI device updated
+6213877ms: Device will change.
+6213877ms: UIState: UI device updated
+6213878ms: mtp: startDevice
+6213878ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6213886ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6213888ms: mtp: OpenSession
+6213888ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6213888ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6213888ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6213889ms: Device did get removed
+6213890ms: UIState: UI device updated
+6224909ms: Device will change.
+6224909ms: UIState: UI device updated
+6224910ms: mtp: startDevice
+6224910ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6224919ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6224920ms: mtp: OpenSession
+6224921ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6224921ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6224921ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6224922ms: Device did get removed
+6224922ms: UIState: UI device updated
+6235937ms: Device will change.
+6235937ms: UIState: UI device updated
+6235937ms: mtp: startDevice
+6235937ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6235947ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6235948ms: mtp: OpenSession
+6235949ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6235949ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6235949ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6235950ms: Device did get removed
+6235950ms: UIState: UI device updated
+6246966ms: Device will change.
+6246966ms: UIState: UI device updated
+6246966ms: mtp: startDevice
+6246967ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6246975ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6246977ms: mtp: OpenSession
+6246977ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6246977ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6246977ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6246979ms: Device did get removed
+6246979ms: UIState: UI device updated
+6257996ms: Device will change.
+6257996ms: UIState: UI device updated
+6257997ms: mtp: startDevice
+6257997ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6258005ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6258007ms: mtp: OpenSession
+6258007ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6258007ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6258007ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6258009ms: Device did get removed
+6258009ms: UIState: UI device updated
+6269023ms: Device will change.
+6269023ms: UIState: UI device updated
+6269023ms: mtp: startDevice
+6269023ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6269032ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6269033ms: mtp: OpenSession
+6269034ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6269034ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6269034ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6269035ms: Device did get removed
+6269035ms: UIState: UI device updated
+6280050ms: Device will change.
+6280050ms: UIState: UI device updated
+6280051ms: mtp: startDevice
+6280051ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6280059ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6280061ms: mtp: OpenSession
+6280061ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6280061ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6280061ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6280062ms: Device did get removed
+6280063ms: UIState: UI device updated
+6291079ms: Device will change.
+6291080ms: UIState: UI device updated
+6291080ms: mtp: startDevice
+6291080ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6291089ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6291090ms: mtp: OpenSession
+6291091ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6291091ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6291091ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6291092ms: Device did get removed
+6291092ms: UIState: UI device updated
+6302106ms: Device will change.
+6302106ms: UIState: UI device updated
+6302107ms: mtp: startDevice
+6302107ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6302116ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6302117ms: mtp: OpenSession
+6302117ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6302118ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6302118ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6302119ms: Device did get removed
+6302119ms: UIState: UI device updated
+6313133ms: Device will change.
+6313133ms: UIState: UI device updated
+6313133ms: mtp: startDevice
+6313134ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6313143ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6313145ms: mtp: OpenSession
+6313145ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6313145ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6313145ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6313146ms: Device did get removed
+6313146ms: UIState: UI device updated
+6324161ms: Device will change.
+6324162ms: UIState: UI device updated
+6324162ms: mtp: startDevice
+6324162ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6324171ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6324173ms: mtp: OpenSession
+6324173ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6324173ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6324173ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6324174ms: Device did get removed
+6324175ms: UIState: UI device updated
+6335188ms: Device will change.
+6335188ms: UIState: UI device updated
+6335188ms: mtp: startDevice
+6335188ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+6635755ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+6936314ms: mtp: OpenSession
+6936314ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+6936314ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+6936314ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+6936316ms: Device did get removed
+6936316ms: UIState: UI device updated
+6946457ms: Device will change.
+6946457ms: UIState: UI device updated
+6946458ms: mtp: startDevice
+6946458ms: DEVDETAIL: vid/pid = 0x0fce 0x41a3
+7063152ms: mtp: startDevice - getDeviceInfo failed with kResultCode_DeviceUSBCommunicationError
+7063155ms: mtp: OpenSession
+7063155ms: mtp: OpenSession failed: kResultCode_DeviceUSBCommunicationError
+7063155ms: mtp: openSession failed: kResultCode_DeviceUSBCommunicationError
+7063156ms: mtp: startDevice failed: kResultCode_DeviceUSBCommunicationError
+7063157ms: Device did get removed
+7063158ms: UIState: UI device updated
+7081215ms: xc: Received piped message, SHOW_WINDOW
+7081215ms: xc: SetForegroundWindow failed
+7244496ms: Device will change.
+7244496ms: UIState: UI device updated
+7244497ms: mtp: startDevice
+7244497ms: DEVDETAIL: vid/pid = 0x0fce 0x51a3
+7244518ms: mtp: startDevice device info: C2305, Sony, 43 supported ops
+7244519ms: DEVDETAIL: StandardVersion = 100
+7244519ms: DEVDETAIL: VendorExtID = 6
+7244519ms: DEVDETAIL: MTP version = 100
+7244519ms: DEVDETAIL: MTP extensions = "microsoft.com: 1.0; android.com: 1.0; microsoft.com/WPDNA: 1.0;sonyericsson.com/SE: 1.0; sony.net/MRLN: 1.0;"
+7244519ms: DEVDETAIL: Functional mode = 0
+7244519ms: DEVDETAIL: 43 supported operations
+7244519ms: DEVDETAIL: GetDeviceInfo, OpenSession, CloseSession, GetStorageIDs, GetStorageInfo, GetNumObjects, GetObjectHandles, GetObjectInfo, GetObject, GetThumb, DeleteObject, SendObjectInfo, SendObject, GetDevicePropDesc, GetDevicePropValue, SetDevicePropValue, ResetDevicePropValue, GetPartialObject, GetObjectPropsSupported, GetObjectPropDesc, GetObjectPropValue, SetObjectPropValue, GetObjectPropList, GetObjectReferences, SetObjectReferences, MTP_OPERATION_0x95c1, MTP_OPERATION_0x95c2, MTP_OPERATION_0x95c3, MTP_OPERATION_0x95c4, MTP_OPERATION_0x95c5, SetPhoneMode, GetExtDevicePropValue, GetBackupInfo, SetPacketName, BackupFiles, BackupFinish, RestoreFiles, CancelBackupRestore, MTP_OPERATION_0x940c, MTP_OPERATION_0x940d, MTP_OPERATION_0x9407, MTP_OPERATION_0x9408, MTP_OPERATION_0x9409
+7244519ms: DEVDETAIL: 8 supported events
+7244520ms: DEVDETAIL: ObjectAdded, ObjectRemoved, StoreAdded, StoreRemoved, ObjectInfoChanged, StorageInfoChanged, MTP_EVENT_0xc350, BackupRestoreResult
+7244520ms: DEVDETAIL: 6 supported device properties
+7244520ms: DEVDETAIL: MTP_DEV_PROP_0xd401, DeviceFriendlyName, MTP_DEV_PROP_0xd405, MTP_DEV_PROP_0x5003, MTP_DEV_PROP_0xd120, BatteryLevel
+7244520ms: DEVDETAIL: Manufacturer = Sony
+7244520ms: DEVDETAIL: Model = C2305
+7244520ms: DEVDETAIL: Device version = 1.0
+7244520ms: DEVDETAIL: Serial number = QO4729C39006
+7244523ms: mtp: OpenSession
+7244523ms: mtp: OpenSession done
+7244557ms: DEVDETAIL: Extension applications = "com.sonyericsson.mtp.extension.backuprestore: 1.1; com.sonyericsson.mtp.extension.marlin: 1.0; com.sonyericsson.mtp.extension.update: 1.0; com.sonyericsson.mtp: 1.0"
+7244585ms: DEVDETAIL: TypeID = PM-0570-BV
+7244614ms: DEVDETAIL: Modelname = C2305
+7244672ms: DEVDETAIL: IMEI length = 15
+7244698ms: DEVDETAIL: Displayname = Xperia C
+7244728ms: DEVDETAIL: App product number = 1275-5177
+7244758ms: DEVDETAIL: App production revision = 16.0.B.2.16
+7244792ms: DEVDETAIL: CDF product number = 1276-3273
+7244818ms: DEVDETAIL: CDF product revision = R3A
+7244857ms: DEVDETAIL: FS product number = WORLD-i
+7244928ms: DEVDETAIL: FS product revision = 16.0.B.2.16
+7245113ms: DEVDETAIL: Android version = 
+7245315ms: DEVDETAIL: CustomerID = 
+7245408ms: DEVDETAIL: EncryptionState = 0
+7245437ms: DEVDETAIL: AdminState = 0
+7245448ms: mtp: startDevice - begin updateLockState
+7245448ms: mtp: updateLockState - begin getStorageIDs
+7245455ms: mtp: startDevice successful
+7245455ms: Remote features controller: Case "typeID" = "PM-0570-BV"
+7245456ms: Device did start: C2305
+7245456ms: UIState: UI device updated
+7245457ms: mtp: EnumerateDevice: C2305
+7245626ms: Remote features controller: Case "customerID" = "439"
+7245627ms: Device did enumerate: C2305
+7245627ms: UIState: UI device updated
+7245627ms: DeviceActionsMTP: Device enumeration completed in 0.16s
+7245627ms: mtp: EnumerateDevice done: C2305
+7245917ms: xc: Received piped message, SHOW_WINDOW
+7281154ms: UICommand: devicerepair
+7281195ms: UEsession: Cancel received
+7281195ms: UEsession: STATE changed to Shutdown by cancel
+7281195ms: UIState: UI devicerepair updated to idle
+7281195ms: analytics: event = DeviceRepair / Canceled / WaitForDeviceReady
+7282238ms: UEsession: runSendShutdown completed successfully
+7282238ms: UEsession: STATE changed to ShuttingDown by stateHandler
+7284142ms: UEsession: UE exited with 0
+7284142ms: UEsession: STATE changed to TerminateUE by stateHandler
+7284393ms: UEsession: runTerminateUE process = eec
+7284393ms: UEsession: STATE changed to CloseLocalListener by stateHandler
+7284643ms: UEsession: runCloseLocalListener
+7284643ms: UEListener: Stopping server
+7284644ms: UEListener: Waiting for connections to clear..
+7284994ms: UEListener: Pre-stop sleep
+7285344ms: UEListener: Stopping daemon
+7285345ms: UEListener: Server stopped!
+7285346ms: UEsession: STATE changed to ResetToIdle by stateHandler
+7285596ms: UEsession: runResetToIdle
+7285597ms: UEsession: runCheckForUpdates
+7285597ms: UIState: UI deviceupdate updated to checking
+7285597ms: UEsession: Checking for updates...
+7285599ms: getLocale: Found locale ru-RU
+7285600ms: UEsession: DU UEP = 0
+7285600ms: UEsession: DU FUAS = 0
+7285600ms: UEsession: DU AppCert = 0
+7285600ms: UEsession: DU BuildVariant = 0
+7285600ms: UEsession: DU locale = ru-RU
+7285600ms: delta: getUpdates
+7285601ms: delta: updateDirectory: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates
+7285601ms: delta: DUCreateSession
+7285601ms: delta: CreateHTTP
+7285601ms: delta: CreateMTP
+7285601ms: libdu: Running Device update version: 1.2.2
+7285602ms: libdu: Constructor session
+7285603ms: libdu: Loading delta file cache from file at location: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates/deltafiles.cache
+7285604ms: libdu: Did not find any delta file cache.
+7285604ms: libdu: Constructor HTTP service
+7285604ms: libdu: Destructor HTTP service
+7285604ms: libdu: Loading update session id cache from file at location: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates/updatesessionids.cache
+7285605ms: libdu: Did not find any update session id cache.
+7285605ms: libdu: Constructor tracking service
+7285605ms: libdu: Sending of tracking data is: enabled
+7285606ms: libdu: Destructor tracking service
+7285606ms: libdu: Constructor MTP service
+7285606ms: libdu: Destructor MTP service
+7285606ms: libdu: Constructor UEP service
+7285607ms: libdu: Destructor UEP service
+7285608ms: libdu: Destructor FUAS service
+7285608ms: libdu: Loading identifier cache from file at location: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates/identifiers.cache
+7285649ms: libdu: Identifier cache JSON response [{
+  "identifierCollections" : 
+  [
+    {
+      "appSwId" : "1275-5177",
+      "appSwVersion" : "16.0.B.2.16",
+      "bootLoaderProdNumber" : "1274-4304,",
+      "bootLoaderRevision" : "2.14.J.2.6",
+      "buildVariant" : "USER",
+      "cdfId" : "1276-3273",
+      "cdfVersion" : "R3A",
+      "displayName" : "Xperia C",
+      "hasDeltaSupport" : "false",
+      "hasGotaABSupport" : "false",
+      "hwType" : "PM-0570-BV",
+      "iicId" : "f7e4fa53-bda8-4367-a880-efd1ad8656e9",
+      "model" : "C2305",
+      "mtpAppCertId" : "live",
+      "unencryptedImei" : "353267066584887",
+      "userType" : "admin"
+    }
+  ]
+}] parsed successfully
+7285649ms: libdu: Destructor identifier cache
+7285649ms: libdu: Identifier cache not changed, skipping writing to file
+7285649ms: delta: setupUpdates success.
+7285649ms: delta: DUIdentifyDevice
+7285649ms: delta: MTPExecute
+7285650ms: delta: MTPExecute->Command:37255, p1 : 53315
+7285701ms: libdu: Mtp command successfully executed
+7285701ms: libdu: Successfully retrieved identifier: User type: admin
+7285701ms: delta: MTPExecute
+7285702ms: delta: MTPExecute->Command:37255, p1 : 53319
+7285727ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+7285727ms: libdu: Mtp command successfully executed
+7285727ms: libdu: Parameter not supported: Android revision
+7285727ms: libdu: Could not get identifier: Android revision
+7285728ms: delta: MTPExecute
+7285728ms: delta: MTPExecute->Command:37255, p1 : 53323
+7285770ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+7285770ms: libdu: Mtp command successfully executed
+7285770ms: libdu: Parameter not supported: MTP application certificate id
+7285770ms: libdu: Could not get identifier: MTP application certificate id
+7285770ms: delta: MTPExecute
+7285770ms: delta: MTPExecute->Command:37255, p1 : 53304
+7285801ms: libdu: Mtp command successfully executed
+7285801ms: libdu: Successfully retrieved identifier: AppSw id: 1275-5177
+7285801ms: delta: MTPExecute
+7285802ms: delta: MTPExecute->Command:37255, p1 : 53305
+7285832ms: libdu: Mtp command successfully executed
+7285832ms: libdu: Successfully retrieved identifier: AppSw version: 16.0.B.2.16
+7285832ms: delta: MTPExecute
+7285832ms: delta: MTPExecute->Command:37255, p1 : 53310
+7285861ms: libdu: Mtp command successfully executed
+7285861ms: libdu: Successfully retrieved identifier: Boot loader product number: 1274-4304,
+7285861ms: delta: MTPExecute
+7285862ms: delta: MTPExecute->Command:37255, p1 : 53311
+7285890ms: libdu: Mtp command successfully executed
+7285891ms: libdu: Successfully retrieved identifier: Boot loader revision: 2.14.J.2.6
+7285891ms: delta: MTPExecute
+7285891ms: delta: MTPExecute->Command:37255, p1 : 53322
+7285916ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+7285917ms: libdu: Mtp command successfully executed
+7285917ms: libdu: Parameter not supported: Build variant
+7285917ms: libdu: Could not get identifier: Build variant
+7285917ms: delta: MTPExecute
+7285917ms: delta: MTPExecute->Command:37255, p1 : 53308
+7285946ms: libdu: Mtp command successfully executed
+7285947ms: libdu: Successfully retrieved identifier: CDF id: 1276-3273
+7285947ms: delta: MTPExecute
+7285947ms: delta: MTPExecute->Command:37255, p1 : 53309
+7285977ms: libdu: Mtp command successfully executed
+7285977ms: libdu: Successfully retrieved identifier: CDF version: R3A
+7285977ms: delta: MTPExecute
+7285977ms: delta: MTPExecute->Command:37255, p1 : 53302
+7286006ms: libdu: Mtp command successfully executed
+7286007ms: libdu: Successfully retrieved identifier: Display name: Xperia C
+7286007ms: delta: MTPExecute
+7286007ms: delta: MTPExecute->Command:37255, p1 : 53317
+7286033ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+7286033ms: libdu: Mtp command successfully executed
+7286033ms: libdu: Parameter not supported: HW config revision
+7286033ms: libdu: Could not get identifier: HW config revision
+7286033ms: delta: MTPExecute
+7286033ms: delta: MTPExecute->Command:37255, p1 : 53303
+7286061ms: libdu: Mtp command successfully executed
+7286062ms: libdu: Successfully retrieved identifier: Unencrypted imei: 353267066584887
+7286062ms: delta: MTPExecute
+7286062ms: delta: MTPExecute->Command:37255, p1 : 53316
+7286087ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+7286087ms: libdu: Mtp command successfully executed
+7286087ms: libdu: Parameter not supported: Encrypted imei
+7286087ms: libdu: Could not get identifier: Encrypted imei
+7286088ms: delta: MTPExecute
+7286088ms: delta: MTPExecute->Command:37255, p1 : 53301
+7286115ms: libdu: Mtp command successfully executed
+7286116ms: libdu: Successfully retrieved identifier: Model: C2305
+7286116ms: delta: MTPExecute
+7286116ms: delta: MTPExecute->Command:37255, p1 : 53300
+7286143ms: libdu: Mtp command successfully executed
+7286144ms: libdu: Successfully retrieved identifier: HW type: PM-0570-BV
+7286144ms: libdu: Identifier value is empty: HW config revision
+7286144ms: libdu: Identifier value is empty: Encrypted imei
+7286144ms: delta: MTPExecute
+7286144ms: delta: MTPExecute->Command:4097, p1 : 0
+7286149ms: libdu: Mtp command successfully executed
+7286149ms: libdu: Device does not support GOTA A/B updates over cable (lacking necessary op codes).
+7286150ms: libdu: Device does not support FOTA updates over cable (lacking necessary op codes).
+7286150ms: libdu: Device does not support delta updates over cable.
+7286150ms: delta: DUGetUpdates
+7286150ms: libdu: Getting collection from id: cd85fc03-0992-449c-a458-0d90b2ea7a46
+7286150ms: libdu: Successfully retrieved IMEI: 353267066584887
+7286150ms: libdu: HTTP GET on: https://fuas.sonymobile.com/fuas/services/updates?cdfId=1276-3273&cdfVer=R3A&channel=cable&clientName=Xperia%20Companion%20Win&clientVersion=2.2.5.0&devId=353267066584887&lang=ru-RU&model=C2305&swId=1275-5177&swVer=16.0.B.2.16&tac_mc=35326706&updateFormat=image
+7286151ms: delta: HTTPGet
+7286151ms: delta: HTTPExecute
+7286151ms: delta: DUHTTPRequestGetURL
+7286151ms: delta: Http request url: https://fuas.sonymobile.com/fuas/services/updates?cdfId=1276-3273&cdfVer=R3A&channel=cable&clientName=Xperia%20Companion%20Win&clientVersion=2.2.5.0&devId=353267066584887&lang=ru-RU&model=C2305&swId=1275-5177&swVer=16.0.B.2.16&tac_mc=35326706&updateFormat=image
+7286151ms: delta: DUHTTPRequestGetHeaderCount
+7286151ms: delta: DUHTTPRequestGetHeader
+7286151ms: delta: DUHTTPRequestGetCertificateCount
+7286151ms: delta: certificate count: 2
+7286151ms: delta: DUHTTPRequestGetPublicKey
+7286152ms: delta: DUHTTPRequestGetPublicKey
+7286588ms: delta: Found matching certificate
+7286588ms: delta: Response code 200
+7286588ms: delta: DUHTTPResponseSetHTTPResult
+7286588ms: delta: Header HTTP/1.1 200 OK: HTTP/1.1 200 OK
+7286589ms: delta: DUHTTPResponseSetHeader
+7286589ms: delta: Header Accept-Ranges: bytes
+7286589ms: delta: DUHTTPResponseSetHeader
+7286589ms: delta: Header Cache-Control: max-age=7200
+7286589ms: delta: DUHTTPResponseSetHeader
+7286589ms: delta: Header cdn_server: fcn/418C
+7286589ms: delta: DUHTTPResponseSetHeader
+7286589ms: delta: Header Content-Type: application/xml;charset=utf-8
+7286589ms: delta: DUHTTPResponseSetHeader
+7286589ms: delta: Header Date: Tue, 13 Nov 2018 18:53:03 GMT
+7286590ms: delta: DUHTTPResponseSetHeader
+7286590ms: delta: Header Etag: W/"1415706428"
+7286590ms: delta: DUHTTPResponseSetHeader
+7286590ms: delta: Header Expires: Tue, 13 Nov 2018 20:53:03 GMT
+7286590ms: delta: DUHTTPResponseSetHeader
+7286590ms: delta: Header Last-Modified: Thu, 04 Oct 2018 15:51:58 GMT
+7286590ms: delta: DUHTTPResponseSetHeader
+7286590ms: delta: Header Server: ECS (fcn/418C)
+7286590ms: delta: DUHTTPResponseSetHeader
+7286590ms: delta: Header X-Cache: HIT
+7286590ms: delta: DUHTTPResponseSetHeader
+7286591ms: delta: Header Content-Length: 227
+7286591ms: delta: DUHTTPResponseSetHeader
+7286591ms: libdu: Http command successfully executed
+7286591ms: delta: HTTPReadData
+7286592ms: libdu: Http command successfully executed
+7286592ms: libdu: FUAS XML response [ <?xml version="1.0"?>
+<updateAvailableResponse xmlns="http://uas.sonyericsson.com/UpdateAvailableResponse">
+    <releaseList />
+    <ceParam>RXSt+u+qDMT7eLh+TD2BGG8igkE=</ceParam>
+</updateAvailableResponse>
+] parsed successfully
+7286592ms: libdu: Image update is lacking security state type, let's generate one...
+7286592ms: libdu: Checking if device is rooted
+7286592ms: delta: MTPExecute
+7286592ms: delta: MTPExecute->Command:37255, p1 : 53324
+7286619ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+7286619ms: libdu: Mtp command successfully executed
+7286619ms: libdu: Parameter not supported: Rooting status
+7286619ms: libdu: Could not get identifier: Rooting status
+7286619ms: delta: Updates available : 1
+7286619ms: delta:  Version: 
+ Mem req: 0 MB
+7286620ms: delta:  ID: FUAS:1
+7286620ms: delta:  Name: 
+7286620ms: UEsession: Update check done...
+7286620ms: UEsession: Updates found: 1
+7286620ms: UEsession: securitystate = COMMERCIAL
+7286620ms: UEsession: No acceptable updates found
+7286620ms: UEsession: runCheckForUpdates completed up to date
+7286621ms: UIState: UI deviceupdate updated to noupdates
+7286621ms: delta: cancel on session: 0548F448
+7286621ms: delta: DUCancel
+7286621ms: libdu: No ongoing session function call to cancel
+7286621ms: libdu: No ongoing MTP function call to cancel.
+7286621ms: libdu: No ongoing HTTP function call to cancel.
+7286621ms: delta: DUDestroySession
+7286621ms: libdu: End session
+7286621ms: libdu: Destructor delta file cache
+7286621ms: libdu: Delta file cache not changed, skipping writing to file
+7286622ms: libdu: Destructor identifier cache
+7286622ms: libdu: Saving identifier cache to file: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates/identifiers.cache
+7286639ms: libdu: Destructor MTP service
+7286639ms: libdu: Destructor UEP service
+7286639ms: libdu: Destructor FUAS service
+7286640ms: libdu: Destructor tracking service
+7286640ms: libdu: Destructor update session id cache
+7286640ms: libdu: Update session ID cache not changed, skipping writing to file
+7286640ms: libdu: Destructor HTTP service
+7286640ms: delta: DestroyMTP
+7286640ms: delta: DestroyHTTP
+7286660ms: libdu: Destructor delta file
+7286660ms: libdu: Closing delta file
+7286660ms: libdu: Destructor session
+7286661ms: UEsession: STATE changed to AlreadyUpToDate by stateHandler
+7301778ms: UICommand: backuprestore
+7301778ms: BRsession: prepareRestore command received
+7301779ms: analytics: event = Restore / Start / Start
+7301779ms: UIState: UI backuprestore updated to restorePreparing
+7301779ms: BRsession: runPrepareRestore preparing restore for Sony Xperia™ C (C2305)
+7301782ms: BRsession: No restore sets in directory
+7301782ms: UIState: UI backuprestore updated to restoreBackupSelection
+7329474ms: UICommand: backuprestore
+7329474ms: BRsession: Cancel received
+7329474ms: analytics: event = Restore / Canceled / WaitingForBackupSelection
+7329474ms: UIState: UI backuprestore updated to idle
+7329474ms: BRsession: runResetToIdle
+7329474ms: BRsession: State reset to idle
+7331130ms: UICommand: devicerepair
+7331131ms: UEsession: STATE changed to WaitForRepairAcceptBattery by commandHandler
+7331131ms: UIState: UI devicerepair updated to welcome
+7335826ms: UICommand: devicerepair
+7335826ms: UEsession: STATE changed to Idle by commandHandler
+7342130ms: UICommand: devicerepair
+7342130ms: UIState: UI deviceupdate updated to idle
+7342130ms: UIState: UI devicerepair updated to preloadRepair
+7342130ms: analytics: event = DeviceRepair / Start / preload
+7342130ms: UEsession: Loading repair for developer preview
+7342131ms: UEsession: STATE changed to PreparePreloadRepairDevice by commandHandler
+7342131ms: UEsession: STATE changed to StartLocalListener by stateHandler
+7342388ms: UEsession: Starting local listener...
+7342388ms: UEsession: Trying listener on port 0, 127.0.0.1
+7342390ms: UListener started on port : 49592
+7342390ms: UEsession: Local listener started on port 49592
+7342390ms: UEsession: runStartLocalListener completed successfully
+7342391ms: UEsession: STATE changed to StartUE by stateHandler
+7342653ms: UEsession: Starting UE...
+7342672ms: UEsession: UE start without service filtering
+7342672ms: UEsession: Running UE from "C:\ProgramData\Sony Mobile\Update Engine\{3803D527-1003-474F-881A-7780AFC70C36}\Sony Mobile Update Engine.exe" on port 58088, 127.0.0.1
+7342672ms: UEsession: UE server = 
+7342672ms: UEsession: UE customization = 
+7342672ms: UEsession: Clearing UE ini
+7342681ms: UEsession: UE started
+7342682ms: UEsession: runStartUE completed successfully, process = 4f8
+7342682ms: UIState: UI devicerepair updated to preloadRepair
+7342682ms: UEsession: STATE changed to PingUE by stateHandler
+7350003ms: HttpHandler: HttpSendRequestA failed with 12029
+7350004ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+7350004ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+7350004ms: UEsession: runSendSmartPing failed to send on attempt 1, will retry
+7356086ms: HttpHandler: HttpSendRequestA failed with 12029
+7356087ms: UEsession: ERROR sendSmartPing sending ping, action res = -1, size = 0
+7356087ms: UEsession: runSendSmartPing sendSmartPing to localhost:58088 failed
+7356087ms: UEsession: runSendSmartPing failed to send on attempt 2, will retry
+7361256ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+7361257ms: UEsession: STATE changed to PingProgress by stateHandler
+7362302ms: UEsession: runSmartPingProgress timeout waiting for reply, will retry
+7362302ms: UEsession: STATE changed to PingUE by stateHandler
+7362373ms: UEsession: pingResult received in unexpected state 13
+7362420ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+7362420ms: UEsession: STATE changed to PingProgress by stateHandler
+7363474ms: UEsession: runSmartPingProgress timeout waiting for reply, will retry
+7363474ms: UEsession: STATE changed to PingUE by stateHandler
+7363795ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+7363795ms: UEsession: STATE changed to PingProgress by stateHandler
+7364849ms: UEsession: runSmartPingProgress timeout waiting for reply, will retry
+7364849ms: UEsession: STATE changed to PingUE by stateHandler
+7365054ms: UEsession: pingResult received in unexpected state 13
+7365131ms: UEsession: runSendSmartPing completed successfully, waiting for response...
+7365131ms: UEsession: STATE changed to PingProgress by stateHandler
+7365131ms: UEsession: Response to smart ping, UE at http://localhost:58088/ and local listener at http://localhost:49592/
+7365131ms: UEsession: STATE changed to Login by UE result
+7365132ms: UEsession: runSendLogin device connected during repair UE startup, checking device type
+7365132ms: UEsession: runSendLogin repair security state type = COMMERCIAL
+7365132ms: UEsession: runSendLogin device is commercial
+7365132ms: UEsession: runSendLogin commercial login set
+7365132ms: AppSettings: App settings requested
+7365133ms: AppSettings: Loading app settings from disk
+7365133ms: UEsession: runSendLogin searching for system proxy settings
+7365150ms: getProxySettings: WinHttpGetProxyForURL type 1, 12180
+7365150ms: UEsession: runSendLogin proxy search result: .ynn.e
+7365150ms: UEsession: No proxies (left), logging in to UE with no proxy
+7365150ms: UEsession: runSendLogin will login anonymously
+7369381ms: UEsession: runSendLogin completed successfully
+7369382ms: UEsession: STATE changed to LoginProgress by stateHandler
+7369382ms: UEsession: pingResult received in unexpected state 16
+7369382ms: UEsession: pingResult received in unexpected state 16
+7369383ms: UEsession: pingResult received in unexpected state 16
+7369430ms: UEsession: pingResult received in unexpected state 16
+7381640ms: UEsession: UE responded to login
+7381641ms: UEsession: Logged in to UE! session ID = SoMC-SessionID1542135263544
+7381641ms: UEsession: STATE changed to DownloadService by UE result
+7381641ms: UIState: UI deviceupdate updated to preloadRepair
+7381660ms: UEsession: runSendDownloadService completed successfully
+7381661ms: UEsession: STATE changed to DownloadServiceProgress by stateHandler
+7382164ms: UEsession: Received actionFailed for action downloadService64 with resultCode = 400, subResultCode = 0, deviceSessionID = 
+7382164ms: UEsession: Preload not supported
+7382165ms: UEsession: Repair preload mode, setting device to flash mode
+7382165ms: UIState: UI devicerepair updated to preloadRepair
+7382165ms: UEsession: STATE changed to SetDeviceToFlash by UE actionFailed
+7382165ms: UEsession: Setting device to flash mode
+7382165ms: UEsession: runSetDeviceToFlash completed successfully
+7382165ms: UIState: UI deviceupdate updated to preloadRepair
+7382165ms: analytics: event = AutoSetFlash / SendCommand / C2305 16.0.B.2.16
+7382165ms: UEsession: STATE changed to WaitForDeviceReady by stateHandler
+7387640ms: Device: Received MTP Event 'StoreRemoved'
+7391424ms: Device will change.
+7391424ms: UIState: UI device updated
+7391424ms: Remote features controller: Case "typeID" cleared
+7391424ms: Remote features controller: Case "customerID" cleared
+7391425ms: Device did get removed
+7391425ms: UIState: UI device updated
+7391425ms: UEsession: Device disconnected in state 23, expected and continuing
+7396896ms: UEsession: Device connection detected!
+7396896ms: UEsession: STATE changed to GetAllConnections by UE notification
+7396912ms: UEsession: runSendGetAllConnections completed successfully
+7396912ms: UEsession: STATE changed to GetAllConnectionsProgress by stateHandler
+7396946ms: UEsession: UE responded to getAllConnections
+7396946ms: UEsession: Device connection detected
+7396946ms: UEsession: getAllConnectionsResult returned device connection successfully!
+7396946ms: UEsession: STATE changed to GetDeviceInfo by UE result
+7396961ms: UEsession: runSendGetDeviceInfo completed successfully
+7396961ms: UEsession: STATE changed to GetDeviceInfoProgress by stateHandler
+7398321ms: UEsession: Device info: C2305 3532 1276-3273 R3A 16.0.B.2.16
+7398321ms: UEsession: getPhoneInfoResult recommended = 3
+7398321ms: UEsession: oldVersion = 16.0.B.2.16
+7398321ms: UEsession: getPhoneInfoResult single object id 
+7398321ms: UEsession: Firmware  with config  and version 
+7398321ms: UEsession: handleGetDeviceInfoResult no firmware found, probable prototype without login
+7398321ms: UEsession: ERROR in getPhoneInfoResult
+7398321ms: UEsession: STATE changed to Shutdown by UE result
+7398336ms: UEsession: runSendShutdown completed successfully
+7398336ms: UEsession: STATE changed to ShuttingDown by stateHandler
+7401001ms: UEsession: UE exited with 0
+7401001ms: UEsession: STATE changed to TerminateUE by stateHandler
+7401253ms: UEsession: runTerminateUE process = 4f8
+7401253ms: UEsession: STATE changed to CloseLocalListener by stateHandler
+7401504ms: UEsession: runCloseLocalListener
+7401504ms: UEListener: Stopping server
+7401504ms: UEListener: Waiting for connections to clear..
+7401855ms: UEListener: Pre-stop sleep
+7402205ms: UEListener: Stopping daemon
+7402206ms: UEListener: Server stopped!
+7402206ms: UEsession: STATE changed to ResetToIdle by stateHandler
+7402458ms: UEsession: runResetToIdle
+7402458ms: analytics: event = DeviceRepair / Unsupported / UEGetPhoneInfoRepairModelNotSupported
+7402459ms: UEsession: UE reset to error (idle) state
+7402459ms: UIState: UI devicerepair updated to errorFatal
+7402459ms: UEsession: STATE changed to ErrorState by stateHandler
+7406624ms: UICommand: devicerepair
+7406625ms: UEsession: STATE changed to ResetToIdle by commandHandler
+7406625ms: UEsession: runResetToIdle
+7406625ms: UIState: UI devicerepair updated to idle
+7406625ms: UEsession: STATE changed to Idle by stateHandler
+7673077ms: xc: Received piped message, SHOW_WINDOW
+7673077ms: xc: SetForegroundWindow failed
+7673267ms: Device will change.
+7673268ms: UIState: UI device updated
+7673268ms: mtp: startDevice
+7673268ms: DEVDETAIL: vid/pid = 0x0fce 0x51a3
+7673290ms: mtp: startDevice device info: C2305, Sony, 43 supported ops
+7673290ms: DEVDETAIL: StandardVersion = 100
+7673290ms: DEVDETAIL: VendorExtID = 6
+7673290ms: DEVDETAIL: MTP version = 100
+7673290ms: DEVDETAIL: MTP extensions = "microsoft.com: 1.0; android.com: 1.0; microsoft.com/WPDNA: 1.0;sonyericsson.com/SE: 1.0; sony.net/MRLN: 1.0;"
+7673290ms: DEVDETAIL: Functional mode = 0
+7673291ms: DEVDETAIL: 43 supported operations
+7673291ms: DEVDETAIL: GetDeviceInfo, OpenSession, CloseSession, GetStorageIDs, GetStorageInfo, GetNumObjects, GetObjectHandles, GetObjectInfo, GetObject, GetThumb, DeleteObject, SendObjectInfo, SendObject, GetDevicePropDesc, GetDevicePropValue, SetDevicePropValue, ResetDevicePropValue, GetPartialObject, GetObjectPropsSupported, GetObjectPropDesc, GetObjectPropValue, SetObjectPropValue, GetObjectPropList, GetObjectReferences, SetObjectReferences, MTP_OPERATION_0x95c1, MTP_OPERATION_0x95c2, MTP_OPERATION_0x95c3, MTP_OPERATION_0x95c4, MTP_OPERATION_0x95c5, SetPhoneMode, GetExtDevicePropValue, GetBackupInfo, SetPacketName, BackupFiles, BackupFinish, RestoreFiles, CancelBackupRestore, MTP_OPERATION_0x940c, MTP_OPERATION_0x940d, MTP_OPERATION_0x9407, MTP_OPERATION_0x9408, MTP_OPERATION_0x9409
+7673291ms: DEVDETAIL: 8 supported events
+7673291ms: DEVDETAIL: ObjectAdded, ObjectRemoved, StoreAdded, StoreRemoved, ObjectInfoChanged, StorageInfoChanged, MTP_EVENT_0xc350, BackupRestoreResult
+7673291ms: DEVDETAIL: 6 supported device properties
+7673291ms: DEVDETAIL: MTP_DEV_PROP_0xd401, DeviceFriendlyName, MTP_DEV_PROP_0xd405, MTP_DEV_PROP_0x5003, MTP_DEV_PROP_0xd120, BatteryLevel
+7673291ms: DEVDETAIL: Manufacturer = Sony
+7673291ms: DEVDETAIL: Model = C2305
+7673292ms: DEVDETAIL: Device version = 1.0
+7673292ms: DEVDETAIL: Serial number = QO4729C39006
+7673294ms: mtp: OpenSession
+7673294ms: mtp: OpenSession done
+7683315ms: DEVDETAIL: TypeID = PM-0570-BV
+7701145ms: DEVDETAIL: Modelname =  挀漀洀⸀猀漀渀礀攀爀椀挀猀猀漀渀⸀洀琀瀀⸀攀砀琀攀渀猀椀漀渀⸀戀愀挀欀甀瀀爀攀猀琀漀爀攀㨀 ㄀⸀㄀㬀 挀漀洀⸀猀漀渀礀攀爀椀挀猀猀漀渀⸀洀琀瀀⸀攀砀琀攀渀猀椀漀渀⸀洀愀爀氀椀渀㨀 ㄀⸀　㬀 挀漀洀⸀猀漀渀礀攀爀椀挀猀猀漀渀⸀洀琀瀀⸀攀砀琀攀渀猀椀漀渀⸀甀瀀搀愀琀攀㨀 ㄀⸀　㬀 挀漀洀⸀猀漀渀礀攀爀椀挀猀猀漀渀⸀洀琀瀀㨀 ㄀⸀
+8302885ms: DEVDETAIL: IMEI length = 15
+8603741ms: DEVDETAIL: Displayname = Xperia™ C (C2305)
+8904294ms: DEVDETAIL: App product number = 1275-5177
+9169067ms: DEVDETAIL: App production revision = 16.0.B.2.16
+9169069ms: DEVDETAIL: CDF product number = 1276-3273
+9169071ms: DEVDETAIL: CDF product revision = R3A
+9169073ms: DEVDETAIL: FS product number = WORLD-i
+9169074ms: DEVDETAIL: FS product revision = 16.0.B.2.16
+9169076ms: DEVDETAIL: Android version = 
+9169078ms: DEVDETAIL: CustomerID = 439
+9169080ms: DEVDETAIL: EncryptionState = 0
+9169082ms: DEVDETAIL: AdminState = 0
+9169084ms: mtp: startDevice - begin updateLockState
+9169084ms: mtp: updateLockState - begin getStorageIDs
+9169086ms: mtp: Lock state cummunication error. Expected, user switched mode
+9169086ms: mtp: startDevice successful
+9169086ms: Remote features controller: Case "typeID" = "PM-0570-BV"
+9169086ms: Remote features controller: Case "customerID" = "439"
+9169087ms: Device did start: C2305
+9169087ms: UIState: UI device updated
+9170097ms: Device will change.
+9170097ms: UIState: UI device updated
+9170097ms: Remote features controller: Case "typeID" cleared
+9170097ms: Remote features controller: Case "customerID" cleared
+9170098ms: Device did get removed
+9170098ms: UIState: UI device updated
+10379765ms: CompanionMain::companionClose()
+10379766ms: BRsession: Input channel disconnected, exiting
+10379766ms: StateMachine: Input channel disconnected, exiting
+10379766ms: Mediasession: Input channel disconnected, exiting
+10379766ms: StateMachine: Input channel disconnected, exiting
+10379766ms: TestingToolSession: Input channel disconnected, exiting
+10379766ms: BRsession: Exiting...
+10379766ms: UEsession: Input channel disconnected, exiting
+10379766ms: Remote features controller: Input channel disconnected, exiting
+10379766ms: XTsession: Input channel disconnected, exiting
+10379766ms: StateMachine: Exiting...
+10379766ms: Mediasession: Exiting...
+10379767ms: AutoUpdateaccess: runResetToIdle
+10379767ms: TestingToolSession: Exiting...
+10379767ms: BRThreadProc: ~ exiting
+10379767ms: UEsession: STATE changed to Idle by Exiting
+10379768ms: UEsession: Exiting...
+10379768ms: UEThreadProc: ~ exiting
+10379767ms: Remote features controller: Exiting...
+10379767ms: XTsession: Exiting...
+10379769ms: XTThreadProc: ~ exiting
+10379769ms: FeatureControllerThreadProc: ~ exiting
+10379768ms: AutoUpdateaccess: State reset to idle
+10379770ms: UIState: UI autoupdates updated to idle
+10379770ms: StateMachine: Exiting...
+10380166ms: AnalyticsRunner: waitExit done!
+10380167ms: StateMachine: waitExit done!
+10380167ms: FeatureControllerRunner: waitExit done!
+10380167ms: UERunner: waitExit done!
+10380167ms: BRRunner: waitExit done!
+10380167ms: MediaRunner: waitExit done!
+10380168ms: StateMachine: waitExit done!
+10380168ms: XTRunner: waitExit done!
+10380168ms: TestingToolRunner: waitExit done!
+10383076ms: AnalyticsRunner: waitExit done!
+10383076ms: StateMachine: waitExit done!
+10383076ms: FeatureControllerRunner: waitExit done!
+10383077ms: UERunner: waitExit done!
+10383077ms: BRRunner: waitExit done!
+10383077ms: MediaRunner: waitExit done!
+10383077ms: StateMachine: waitExit done!
+10383077ms: XTRunner: waitExit done!
+10383077ms: TestingToolRunner: waitExit done!
+10383077ms: WARNING services still running...
+10383077ms: companionClose exiting (hopefully near the end of the log)

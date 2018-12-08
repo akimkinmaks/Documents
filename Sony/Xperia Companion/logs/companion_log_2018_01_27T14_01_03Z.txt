@@ -1,0 +1,389 @@
+000084ms: LOGINTERNAL: Xperia Companion version 1.9.2.0
+000084ms: LOGINTERNAL: Xperia Companion arch Win32
+000118ms: FILE: CreateFileW failed with 2 for C:\Users\user\Documents\Sony\Xperia Companion\xc-config.xml
+000118ms: FILE: CreateFileW failed with 2 for C:\Users\user\Documents\Sony\Xperia Companion\xc-pro-app-settings.xml
+000119ms: AppSettings: Loading app settings from disk
+000123ms: AppSettings: Saved app settings
+000123ms: CompanionMain::CompanionMain()
+000124ms: System: Windows 10  64 bit
+000124ms: System: Time 2018-01-27T14:01:03Z
+000125ms: AppSettings: App settings requested
+000125ms: AppSettings: Loading app settings from disk
+000160ms: AppSettings: App settings requested
+000161ms: AppSettings: Loading app settings from disk
+000217ms: getCountryCode: Found country RU
+000218ms: UIState: UI env info updated
+000307ms: Starting remote features controller session
+000405ms: UIState: UI deviceupdate updated to idle
+000405ms: UIState: UI devicerepair updated to idle
+000405ms: UIState: UI verifyprologin updated to idle
+000466ms: Starting UE session
+000482ms: UIState: UI backuprestore updated to idle
+000482ms: BRsession: BRContainer()
+000483ms: Starting BR session
+000494ms: autoupdate: Getting downloaded version
+000495ms: autoupdate: Failed to check path status, Не удается найти указанный файл
+000495ms: autoupdate: Failed to get version info path.
+000496ms: AutoUpdatesession: AutoUpdateContainer()
+000496ms: UIState: UI autoupdates updated to idle
+000497ms: Starting Auto update session
+000497ms: AutoUpdatesession: Check command received
+000498ms: UIState: UI autoupdates updated to checking
+000498ms: autoupdate: Getting manifest from server: 
+000499ms: UIState: UI mediaaccess updated to idle
+000499ms: Mediasession: MediaContainer()
+000503ms: Starting Media session
+000504ms: UIState: UI photoaccess updated to idle
+000505ms: AppSettings: App settings requested
+000506ms: AppSettings: Loading app settings from disk
+000506ms: Photosession: PhotoContainer()
+000507ms: Starting Photo session
+000508ms: UIState: UI xperiatransfer updated to idle
+000508ms: XTsession: XTContainer()
+000508ms: Starting XT session
+000509ms: UIState: UI testingtool updated to idle
+000509ms: TestingToolSession: TestingToolContainer()
+000510ms: Starting Testing Tool session
+000511ms: CompanionMain::companionMainLoop()
+000757ms: Remote features controller: Downloaded xml successfully!
+000757ms: Remote features controller: Parsing xml
+000757ms: Remote features controller: Result: OK
+000757ms: Remote features controller: Case "os" = "win"
+000758ms: getCountryCode: Found country RU
+000758ms: Remote features controller: Case "country" = "RU"
+000759ms: Remote features controller: Case "applicationBuild" = "1.9.2.0"
+000759ms: Remote features controller: Case "systemVersion" = "10.0"
+000759ms: Remote features controller: Feature "XTICloudLogin" Disable
+000759ms: UIState: UI remote features info updated
+000782ms: DeviceController: Remote device XML revision: 13
+000878ms: autoupdate: Manifest downloaded successfully.
+001722ms: autoupdate: Current version is 1.9.2.0
+001722ms: autoupdate: Newest version is 1.9.2.0
+001722ms: autoupdate: Up to date.
+001722ms: AutoUpdateaccess: handleCheckResult OK
+002737ms: Device will change.
+002737ms: UIState: UI device updated
+003016ms: mtp: startDevice
+003016ms: DEVDETAIL: vid/pid = 0x0fce 0x1a3
+003314ms: mtp: startDevice device info: C2305, Sony, 43 supported ops
+003314ms: DEVDETAIL: StandardVersion = 100
+003314ms: DEVDETAIL: VendorExtID = 6
+003314ms: DEVDETAIL: MTP version = 100
+003314ms: DEVDETAIL: MTP extensions = "microsoft.com: 1.0; android.com: 1.0; microsoft.com/WPDNA: 1.0;sonyericsson.com/SE: 1.0; sony.net/MRLN: 1.0;"
+003314ms: DEVDETAIL: Functional mode = 0
+003314ms: DEVDETAIL: 43 supported operations
+003359ms: DEVDETAIL: GetDeviceInfo, OpenSession, CloseSession, GetStorageIDs, GetStorageInfo, GetNumObjects, GetObjectHandles, GetObjectInfo, GetObject, GetThumb, DeleteObject, SendObjectInfo, SendObject, GetDevicePropDesc, GetDevicePropValue, SetDevicePropValue, ResetDevicePropValue, GetPartialObject, GetObjectPropsSupported, GetObjectPropDesc, GetObjectPropValue, SetObjectPropValue, GetObjectPropList, GetObjectReferences, SetObjectReferences, MTP_OPERATION_0x95c1, MTP_OPERATION_0x95c2, MTP_OPERATION_0x95c3, MTP_OPERATION_0x95c4, MTP_OPERATION_0x95c5, SetPhoneMode, GetExtDevicePropValue, GetBackupInfo, SetPacketName, BackupFiles, BackupFinish, RestoreFiles, CancelBackupRestore, MTP_OPERATION_0x940c, MTP_OPERATION_0x940d, MTP_OPERATION_0x9407, MTP_OPERATION_0x9408, MTP_OPERATION_0x9409
+003359ms: DEVDETAIL: 8 supported events
+003359ms: DEVDETAIL: ObjectAdded, ObjectRemoved, StoreAdded, StoreRemoved, ObjectInfoChanged, StorageInfoChanged, MTP_EVENT_0xc350, BackupRestoreResult
+003359ms: DEVDETAIL: 6 supported device properties
+003359ms: DEVDETAIL: MTP_DEV_PROP_0xd401, DeviceFriendlyName, MTP_DEV_PROP_0xd405, MTP_DEV_PROP_0x5003, MTP_DEV_PROP_0xd120, BatteryLevel
+003359ms: DEVDETAIL: Manufacturer = Sony
+003359ms: DEVDETAIL: Model = C2305
+003359ms: DEVDETAIL: Device version = 1.0
+003359ms: DEVDETAIL: Serial number = QO4729C39006
+003361ms: mtp: OpenSession
+003361ms: mtp: OpenSession done
+003519ms: DEVDETAIL: Extension applications = "com.sonyericsson.mtp.extension.backuprestore: 1.1; com.sonyericsson.mtp.extension.marlin: 1.0; com.sonyericsson.mtp.extension.update: 1.0; com.sonyericsson.mtp: 1.0"
+003551ms: DEVDETAIL: TypeID = PM-0570-BV
+003590ms: DEVDETAIL: Modelname = C2305
+003661ms: DEVDETAIL: IMEI length = 15
+003693ms: DEVDETAIL: Displayname = Xperia C
+003735ms: DEVDETAIL: App product number = 1275-5177
+003769ms: DEVDETAIL: App production revision = 16.0.B.2.16
+003809ms: DEVDETAIL: CDF product number = 1276-3273
+003842ms: DEVDETAIL: CDF product revision = R3A
+003874ms: DEVDETAIL: FS product number = WORLD-i
+003906ms: DEVDETAIL: FS product revision = 16.0.B.2.16
+003935ms: DEVDETAIL: Android version = 
+003967ms: DEVDETAIL: CustomerID = 
+003998ms: DEVDETAIL: EncryptionState = 0
+004031ms: DEVDETAIL: AdminState = 0
+004036ms: mtp: startDevice - begin updateLockState
+004037ms: mtp: updateLockState - begin getStorageIDs
+004041ms: mtp: startDevice successful
+004042ms: Remote features controller: Case "typeID" = "PM-0570-BV"
+004042ms: Device did start: C2305
+004042ms: analytics: event = Device / Connected / C2305
+004042ms: UIState: UI device updated
+004107ms: mtp: EnumerateDevice: C2305
+004938ms: Remote features controller: Case "customerID" = "439"
+004939ms: Device did enumerate: C2305
+004939ms: analytics: event = Device / Enumerated / C2305
+004939ms: UIState: UI device updated
+004939ms: UEsession: runCheckForUpdates
+004940ms: UIState: UI deviceupdate updated to checking
+004940ms: UEsession: Checking for updates...
+004940ms: analytics: event = CheckForUpdates / Start / C2305 16.0.B.2.16
+004942ms: getLocale: Found locale ru-RU
+004942ms: UEsession: DU UEP = 0
+004942ms: UEsession: DU FUAS = 0
+004942ms: UEsession: DU AppCert = 0
+004972ms: UEsession: DU BuildVariant = 0
+004972ms: UEsession: DU locale = ru-RU
+004972ms: delta: getUpdates
+005012ms: delta: updateDirectory: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates
+005109ms: DeviceActionsMTP: Device enumeration completed in 0.82s
+005109ms: mtp: EnumerateDevice done: C2305
+005581ms: delta: Init ok.
+005581ms: delta: Successfully loaded library, deviceupdate_cwrapper.dll
+005581ms: delta: DUCreateSession
+005581ms: delta: CreateHTTP
+005581ms: delta: CreateMTP
+005581ms: libdu: Running Device update version: 1.1.16
+005582ms: libdu: Constructor session
+005583ms: libdu: Loading delta file cache from file at location: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates/deltafiles.cache
+005584ms: libdu: Did not find any delta file cache.
+005584ms: libdu: Constructor HTTP service
+005584ms: libdu: Destructor HTTP service
+005585ms: libdu: Loading update session id cache from file at location: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates/updatesessionids.cache
+005585ms: libdu: Did not find any update session id cache.
+005585ms: libdu: Constructor tracking service
+005585ms: libdu: Sending of tracking data is: enabled
+005586ms: libdu: Destructor tracking service
+005586ms: libdu: Constructor MTP service
+005586ms: libdu: Destructor MTP service
+005587ms: libdu: Constructor UEP service
+005587ms: libdu: Destructor UEP service
+005588ms: libdu: Destructor FUAS service
+005588ms: libdu: Loading identifier cache from file at location: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates/identifiers.cache
+005637ms: libdu: Destructor identifier cache
+005637ms: libdu: Identifier cache not changed, skipping writing to file
+005638ms: delta: setupUpdates success.
+005638ms: delta: DUIdentifyDevice
+005638ms: delta: MTPExecute
+005638ms: delta: MTPExecute->Command:37255, p1 : 53315
+005718ms: libdu: Mtp command successfully executed
+005719ms: libdu: Successfully retrieved identifier: User type: admin
+005719ms: delta: MTPExecute
+005719ms: delta: MTPExecute->Command:37255, p1 : 53319
+005751ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+005751ms: libdu: Mtp command successfully executed
+005751ms: libdu: Parameter not supported: Android revision
+005751ms: libdu: Could not get identifier: Android revision
+005751ms: delta: MTPExecute
+005751ms: delta: MTPExecute->Command:37255, p1 : 53323
+005779ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+005779ms: libdu: Mtp command successfully executed
+005779ms: libdu: Parameter not supported: MTP application certificate id
+005779ms: libdu: Could not get identifier: MTP application certificate id
+005779ms: delta: MTPExecute
+005779ms: delta: MTPExecute->Command:37255, p1 : 53304
+005812ms: libdu: Mtp command successfully executed
+005813ms: libdu: Successfully retrieved identifier: AppSw id: 1275-5177
+005813ms: delta: MTPExecute
+005813ms: delta: MTPExecute->Command:37255, p1 : 53305
+005853ms: libdu: Mtp command successfully executed
+005854ms: libdu: Successfully retrieved identifier: AppSw version: 16.0.B.2.16
+005854ms: delta: MTPExecute
+005854ms: delta: MTPExecute->Command:37255, p1 : 53310
+005882ms: libdu: Mtp command successfully executed
+005883ms: libdu: Successfully retrieved identifier: Boot loader product number: 1274-4304,
+005883ms: delta: MTPExecute
+005883ms: delta: MTPExecute->Command:37255, p1 : 53311
+005921ms: libdu: Mtp command successfully executed
+005921ms: libdu: Successfully retrieved identifier: Boot loader revision: 2.14.J.2.6
+005921ms: delta: MTPExecute
+005921ms: delta: MTPExecute->Command:37255, p1 : 53322
+005953ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+005954ms: libdu: Mtp command successfully executed
+005954ms: libdu: Parameter not supported: Build variant
+005954ms: libdu: Could not get identifier: Build variant
+005954ms: delta: MTPExecute
+005954ms: delta: MTPExecute->Command:37255, p1 : 53308
+005986ms: libdu: Mtp command successfully executed
+005987ms: libdu: Successfully retrieved identifier: CDF id: 1276-3273
+005987ms: delta: MTPExecute
+005987ms: delta: MTPExecute->Command:37255, p1 : 53309
+006017ms: libdu: Mtp command successfully executed
+006017ms: libdu: Successfully retrieved identifier: CDF version: R3A
+006017ms: delta: MTPExecute
+006017ms: delta: MTPExecute->Command:37255, p1 : 53302
+006047ms: libdu: Mtp command successfully executed
+006047ms: libdu: Successfully retrieved identifier: Display name: Xperia C
+006048ms: delta: MTPExecute
+006048ms: delta: MTPExecute->Command:37255, p1 : 53317
+006075ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+006075ms: libdu: Mtp command successfully executed
+006075ms: libdu: Parameter not supported: HW config revision
+006075ms: libdu: Could not get identifier: HW config revision
+006075ms: delta: MTPExecute
+006075ms: delta: MTPExecute->Command:37255, p1 : 53303
+006106ms: libdu: Mtp command successfully executed
+006107ms: libdu: Successfully retrieved identifier: Unencrypted imei: 353267066584887
+006107ms: delta: MTPExecute
+006107ms: delta: MTPExecute->Command:37255, p1 : 53316
+006137ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+006138ms: libdu: Mtp command successfully executed
+006138ms: libdu: Parameter not supported: Encrypted imei
+006138ms: libdu: Could not get identifier: Encrypted imei
+006138ms: delta: MTPExecute
+006138ms: delta: MTPExecute->Command:37255, p1 : 53301
+006170ms: libdu: Mtp command successfully executed
+006170ms: libdu: Successfully retrieved identifier: Model: C2305
+006170ms: delta: MTPExecute
+006170ms: delta: MTPExecute->Command:37255, p1 : 53300
+006204ms: libdu: Mtp command successfully executed
+006204ms: libdu: Successfully retrieved identifier: HW type: PM-0570-BV
+006204ms: libdu: Identifier value is empty: HW config revision
+006204ms: libdu: Identifier value is empty: Encrypted imei
+006204ms: delta: MTPExecute
+006204ms: delta: MTPExecute->Command:4097, p1 : 0
+006211ms: libdu: Mtp command successfully executed
+006212ms: libdu: Device does not support GOTA A/B updates over cable (lacking necessary op codes).
+006212ms: libdu: Device does not support FOTA updates over cable (lacking necessary op codes).
+006212ms: libdu: Device does not support delta updates over cable.
+006212ms: delta: DUGetUpdates
+006212ms: libdu: Getting collection from id: 88cd4164-8979-44ec-a1da-130a32ac3b74
+006212ms: libdu: Successfully retrieved IMEI: 353267066584887
+006213ms: libdu: HTTP GET on: http://fuas.sonymobile.com/fuas/services/updates?cdfId=1276-3273&cdfVer=R3A&channel=cable&clientName=Xperia%20Companion%20Win&clientVersion=1.9.2.0&devId=353267066584887&lang=ru-RU&model=C2305&swId=1275-5177&swVer=16.0.B.2.16&tac_mc=35326706&updateFormat=image
+006213ms: delta: HTTPGet
+006213ms: delta: HTTPExecute
+006213ms: delta: DUHTTPRequestGetURL
+006213ms: delta: Http request url: http://fuas.sonymobile.com/fuas/services/updates?cdfId=1276-3273&cdfVer=R3A&channel=cable&clientName=Xperia%20Companion%20Win&clientVersion=1.9.2.0&devId=353267066584887&lang=ru-RU&model=C2305&swId=1275-5177&swVer=16.0.B.2.16&tac_mc=35326706&updateFormat=image
+006213ms: delta: DUHTTPRequestGetHeaderCount
+006213ms: delta: DUHTTPRequestGetHeader
+006213ms: delta: DUHTTPRequestGetCertificateCount
+006213ms: delta: certificate count: 0
+006487ms: delta: Response code 200
+006488ms: delta: DUHTTPResponseSetHTTPResult
+006488ms: delta: Header HTTP/1.1 200 OK: HTTP/1.1 200 OK
+006488ms: delta: DUHTTPResponseSetHeader
+006488ms: delta: Header Accept-Ranges: bytes
+006488ms: delta: DUHTTPResponseSetHeader
+006488ms: delta: Header Cache-Control: max-age=7200
+006488ms: delta: DUHTTPResponseSetHeader
+006488ms: delta: Header Content-Type: application/xml;charset=utf-8
+006488ms: delta: DUHTTPResponseSetHeader
+006488ms: delta: Header Date: Sat, 27 Jan 2018 14:01:11 GMT
+006488ms: delta: DUHTTPResponseSetHeader
+006488ms: delta: Header Etag: W/"-1498649273"
+006488ms: delta: DUHTTPResponseSetHeader
+006488ms: delta: Header Expires: Sat, 27 Jan 2018 16:01:11 GMT
+006489ms: delta: DUHTTPResponseSetHeader
+006489ms: delta: Header Last-Modified: Sat, 27 Jan 2018 08:08:39 GMT
+006489ms: delta: DUHTTPResponseSetHeader
+006489ms: delta: Header Server: Sony Server
+006489ms: delta: DUHTTPResponseSetHeader
+006489ms: delta: Header X-Cache: HIT
+006489ms: delta: DUHTTPResponseSetHeader
+006489ms: delta: Header Content-Length: 646
+006489ms: delta: DUHTTPResponseSetHeader
+006489ms: libdu: Http command successfully executed
+006489ms: delta: HTTPReadData
+006490ms: libdu: Http command successfully executed
+006490ms: libdu: FUAS XML response [ <?xml version="1.0"?>
+<updateAvailableResponse xmlns="http://uas.sonyericsson.com/UpdateAvailableResponse">
+    <releaseList>
+        <release>
+            <update>no</update>
+            <swVersion>16.0.B.2.16</swVersion>
+            <cdfVersion>R3A</cdfVersion>
+            <releaseNotesUrl>https://releasenotes.sonymobile.com/releasenotes/3/1275-5177/16.0.B.2.16/1275-5177/16.0.B.2.16/1276-3273/R3A/1276-3273/R3A/ru-RU/release-notes.xml</releaseNotesUrl>
+            <updateTypes>
+                <updateType>
+                    <channel>cable</channel>
+                    <format>image</format>
+                    <type>cleanReinstall</type>
+                </updateType>
+            </updateTypes>
+        </release>
+    </releaseList>
+    <ceParam>u1w2K4ldqTQVxcY014AqOOzfaLY=</ceParam>
+</updateAvailableResponse>
+] parsed successfully
+006490ms: libdu: Image update is lacking security state type, let's generate one...
+006491ms: libdu: Checking if device is rooted
+006491ms: delta: MTPExecute
+006491ms: delta: MTPExecute->Command:37255, p1 : 53324
+006533ms: delta: Error sending raw mtp request, kResultCode_MTPParameterNotSupported
+006534ms: libdu: Mtp command successfully executed
+006534ms: libdu: Parameter not supported: Rooting status
+006534ms: libdu: Could not get identifier: Rooting status
+006534ms: delta: Updates available : 1
+006534ms: delta:  Version: 16.0.B.2.16
+ Mem req: 524288000 MB
+006534ms: delta:  ID: FUAS:0
+006534ms: delta:  Name: 
+006534ms: UEsession: Update check done...
+006534ms: UEsession: Updates found: 1
+006534ms: UEsession: securitystate = COMMERCIAL
+006535ms: UEsession: No acceptable updates found
+006535ms: analytics: event = CheckForUpdates / UpToDate / C2305 16.0.B.2.16
+006535ms: UEsession: runCheckForUpdates completed up to date
+006535ms: UIState: UI deviceupdate updated to noupdates
+006535ms: delta: cancel on session: 065A8028
+006535ms: delta: DUCancel
+006535ms: libdu: No ongoing session function call to cancel
+006535ms: libdu: No ongoing MTP function call to cancel.
+006535ms: libdu: No ongoing HTTP function call to cancel.
+006535ms: delta: DUDestroySession
+006535ms: libdu: End session
+006535ms: libdu: Destructor delta file cache
+006535ms: libdu: Delta file cache not changed, skipping writing to file
+006536ms: libdu: Destructor identifier cache
+006536ms: libdu: Saving identifier cache to file: C:\Users\user\AppData\Local\Temp\xperiacompanion\deltaupdates/identifiers.cache
+006548ms: libdu: Destructor MTP service
+006549ms: libdu: Destructor UEP service
+006549ms: libdu: Destructor FUAS service
+006549ms: libdu: Destructor tracking service
+006549ms: libdu: Destructor update session id cache
+006549ms: libdu: Update session ID cache not changed, skipping writing to file
+006549ms: libdu: Destructor HTTP service
+006549ms: delta: DestroyMTP
+006602ms: delta: DestroyHTTP
+006614ms: libdu: Destructor delta file
+006614ms: libdu: Closing delta file
+006614ms: libdu: Destructor session
+009300ms: getPreferredLocales: Found locale ru-RU
+009300ms: getPreferredLocales: Found locale en-US
+009300ms: getPreferredLocales: 2 locales found
+009331ms: getPreferredLocales: Found locale ru-RU
+009331ms: getPreferredLocales: Found locale en-US
+009331ms: getPreferredLocales: 2 locales found
+011040ms: PlatformWin32: Main window set
+013924ms: CompanionMain::companionClose()
+013925ms: Mediasession: Input channel disconnected, exiting
+013925ms: StateMachine: Input channel disconnected, exiting
+013925ms: UEsession: Input channel disconnected, exiting
+013925ms: XTsession: Input channel disconnected, exiting
+013925ms: StateMachine: Input channel disconnected, exiting
+013925ms: Mediasession: Exiting...
+013925ms: TestingToolSession: Input channel disconnected, exiting
+013925ms: BRsession: Input channel disconnected, exiting
+013925ms: TestingToolSession: Exiting...
+013925ms: AutoUpdateaccess: runResetToIdle
+013925ms: AutoUpdateaccess: State reset to idle
+013925ms: UEsession: runResetToIdle
+013925ms: StateMachine: Exiting...
+013925ms: BRsession: Exiting...
+013926ms: BRThreadProc: ~ exiting
+013926ms: UIState: UI autoupdates updated to idle
+013925ms: XTsession: Exiting...
+013926ms: UIState: UI deviceupdate updated to idle
+013925ms: Remote features controller: Input channel disconnected, exiting
+013926ms: StateMachine: Exiting...
+013926ms: XTThreadProc: ~ exiting
+013926ms: UEsession: Exiting...
+013926ms: Remote features controller: Exiting...
+013926ms: UEThreadProc: ~ exiting
+013927ms: FeatureControllerThreadProc: ~ exiting
+014331ms: AnalyticsRunner: waitExit done!
+014332ms: FeatureControllerRunner: waitExit done!
+014332ms: UERunner: waitExit done!
+014332ms: BRRunner: waitExit done!
+014332ms: StateMachine: waitExit done!
+014332ms: MediaRunner: waitExit done!
+014333ms: StateMachine: waitExit done!
+014333ms: XTRunner: waitExit done!
+014333ms: TestingToolRunner: waitExit done!
+017243ms: AnalyticsRunner: waitExit done!
+017243ms: FeatureControllerRunner: waitExit done!
+017243ms: UERunner: waitExit done!
+017243ms: BRRunner: waitExit done!
+017243ms: StateMachine: waitExit done!
+017243ms: MediaRunner: waitExit done!
+017243ms: StateMachine: waitExit done!
+017243ms: XTRunner: waitExit done!
+017243ms: TestingToolRunner: waitExit done!
+017243ms: WARNING services still running...
+017243ms: companionClose exiting (hopefully near the end of the log)

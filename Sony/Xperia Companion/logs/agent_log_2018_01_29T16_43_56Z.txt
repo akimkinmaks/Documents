@@ -1,0 +1,13 @@
+17ms Loading images
+26ms Creating controls
+27ms Loading messages
+27ms getting messages from agent-ru.xml
+7042ms Shell_NotifyIcon(NIM_ADD) failed with 1460.
+7043ms FILE CreateFileW failed with 2 for C:\Users\user\Documents\Sony\Xperia Companion\xc-config.xml
+7043ms FILE CreateFileW failed with 2 for C:\Users\user\Documents\Sony\Xperia Companion\xc-pro-app-settings.xml
+7054ms AppSettings Loading app settings from disk
+7057ms AppSettings Saved app settings
+7058ms Started listening for devices
+1459606ms base Could not open pipe, 2
+1459606ms Failed to send piped message, QUIT
+1459607ms joining scanner thread
